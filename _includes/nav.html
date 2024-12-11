@@ -2,7 +2,7 @@
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-  <a class="navbar-brand js-scroll-trigger" href="{{{ " /" | relative_url }}">
+  <a class="navbar-brand js-scroll-trigger" href="{{ site.url | relative_url }}">
     <div class="d-none d-lg-block">
       <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ .Site.Params.profileImage }}?s=400" alt="">
     </div>
