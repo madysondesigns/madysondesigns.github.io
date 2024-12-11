@@ -52,3 +52,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Collection testing
+collections:
+  case-studies:
+    output: true
+    permalink: /:collection/:path
