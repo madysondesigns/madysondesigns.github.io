@@ -1,0 +1,41 @@
+[
+  {
+    "grouping": "Product Design",
+    "keywords": [
+      "Product Strategy",
+      "Design Thinking",
+      "Information Architecture",
+      "Design Systems",
+      "Personas",
+      "User Research",
+      "User Journey Maps",
+      "Split Testing/Analytics",
+      "Usability Standards",
+      "Prototyping",
+      "Responsive Design"
+    ]
+  },
+  {
+    "grouping": "Visual Design",
+    "keywords": [
+      "Creative Direction",
+      "UI/Visual Design",
+      "Mobile Design",
+      "Interaction Design",
+      "Identity & Brand Design",
+      "Print Design"
+    ]
+  },
+  {
+    "grouping": "Software",
+    "keywords": [
+      "HTML/CSS/Javascript",
+      "Ruby/Rails",
+      "PHP/WordPress",
+      "Sketch/Figma",
+      "Adobe Creative Suite",
+      "InVision/UXPin/Framer",
+      "Asana/Trello/Jira"
+    ]
+  }
+]
