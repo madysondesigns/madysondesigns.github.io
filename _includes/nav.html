@@ -24,11 +24,11 @@
         {%- endif -%}
       {%- endfor -%}
 
-      {% for case-study in site.case-studies %}
+      {%- for case-study in site.case-studies -%}
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="{{ case-study.url | relative_url }}">{{ case-study.title | escape }}</a>
       </li>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
   </div>
 </nav>

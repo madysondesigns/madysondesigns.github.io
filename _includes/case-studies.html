@@ -1,0 +1,22 @@
+<section class="resume-section" id="case-studies">
+  <div class="my-auto resume-content" id="projects-content">
+    <h2 class="mb-5">Case Studies</h2>
+    <p>Here are a few examples of how I approach design and product challenges.</p>
+    {%- for case-study in site.case-studies -%}
+      <h3 class="mt-5"><a href="{{ case-study.url | relative_url }}">{{ case-study.title }}</a></h3>
+      <div class="resume-item">
+        <div class="case-study-photo mr-4">
+          <!-- {{with .Params.image }} -->
+          <img src="{{ case-study.image }}" style="max-height:150px;max-width:150px;" />
+          <!-- {{ end }} -->
+        </div>
+        <div class="case-study-excerpt">
+          <p>{{ case-study.description | safeHTML }}
+          <p>
+          <p class><a href="{{ case-study.url | relative_url }}">Read more...</a></p>
+        </div>
+      </div>
+      <!-- {{ partial "techtags" . }} -->
+    {%- endfor -%}
+  </div>
+</section>
