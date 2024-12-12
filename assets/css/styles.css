@@ -1,5 +1,5 @@
 @import url('normalize.css');
-@import url('kill-bootstrap.css');
+@import url('utilities.css');
 
 :root {
   --color-accent: #D0021B;
@@ -158,6 +158,23 @@ blockquote p {
   margin-top: 0;
 }
 
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: var(--size-xs);
+  }
+}
+
 .list-icons {
   font-size: 3rem;
 }
@@ -227,6 +244,9 @@ blockquote p {
 }
 
 .navbar-collapse {
+  align-items: center;
+  flex-basis: 100%;
+  flex-grow: 1;
   order: 99;
 }
 
@@ -235,8 +255,14 @@ blockquote p {
   margin-left: auto;
   border: 0;
   font-size: var(--size-m);
+  background-color: transparent;
   color: var(--color-knockout);
   outline: none;
+
+  /*// Opinionated: add "hand" cursor to non-disabled .navbar-toggler elements*/
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
 }
 
 .list-social-icons a .fa-lg {
