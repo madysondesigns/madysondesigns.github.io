@@ -4,7 +4,9 @@
       <h1 class="my-0">Hi, I'm Sarah.</h1>
     </div>
     <div>
-      {{ .Content }}
+      <p>{{ site.description }}</p>
+      {%- assign about = site.pages | where: "path", "about.md" | first -%}
+      {{ about.content | truncatewords: 40, "" }}
       <a href="/about">Read more about me</a> or <a href="http://resume.madysondesigns.com" target="blank">Download my full resume</a>
       <ul class="list-inline list-social-icons mb-0 mt-4">
         <li class="list-inline-item">
