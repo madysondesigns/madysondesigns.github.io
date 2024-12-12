@@ -7,9 +7,10 @@
   - [x] migrate page layouts
   - [x] figure out resume json
   - [x] migrate icons
-  - [ ] set up tags & breadcrumbs
+  - [x] set up breadcrumbs
+  - [ ] set up tags/taxonomies/terms?
+  - [ ] create case studies index page
   - [ ] migrate javascript
-  - [ ] migrate taxonomies/terms?
   - [ ] migrate case study contents
 - [x] why are styles broken
 - [x] figure out noindex on page basis
