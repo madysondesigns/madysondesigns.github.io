@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: case-studies
+noindex: true
 title: Test
 ---
 

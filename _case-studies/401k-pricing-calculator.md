@@ -1,4 +1,6 @@
 ---
+layout: case-studies
+noindex: false
 title: "401(k) Pricing Calculator"
 date: 2017-10-03
 featured: true

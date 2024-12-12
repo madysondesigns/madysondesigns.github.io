@@ -4,16 +4,18 @@
 - [ ] Migrate from Hugo theme
   - [x] figure out archetypes
   - [x] migrate css
-  - [ ] migrate page layouts
-  - [ ] migrate page contents
+  - [x] migrate page layouts
+  - [x] figure out resume json
   - [x] migrate icons
+  - [ ] set up tags & breadcrumbs
   - [ ] migrate javascript
   - [ ] migrate taxonomies/terms?
-  - [x] figure out resume json
-- [ ] set up frontmatter metadata
+  - [ ] migrate case study contents
 - [x] why are styles broken
-- [ ] figure out noindex on page basis
+- [x] figure out noindex on page basis
 - [x] figure out how to make a local theme
-- [ ] figure out how to do excerpts
+- [x] figure out how to do excerpts
+- [ ] clean up frontmatter metadata
+- [ ] update/fix left nav
 - [ ] better image include
 - [ ] polish style/formatting
