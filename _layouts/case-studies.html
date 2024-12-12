@@ -2,13 +2,14 @@
 layout: default
 ---
 
-{% include breadcrumbs.html %}
+{%- include breadcrumbs.html -%}
 <section class="resume-section">
   <div class="my-auto content">
     <h1 class="my-0">Case Study: {{ page.title }}</h1>
     <h3>TL;DR:</h3>
     <p>{{ page.description }}</p>
     {{ content }}
+    {%- include tags.html -%}
 
     <p class="case-disclosure"><small>All information in this case study reflects my thoughts and does not necessarily
         reflect the views of the company. To comply with my non-disclosure agreement, I have omitted and anonymized

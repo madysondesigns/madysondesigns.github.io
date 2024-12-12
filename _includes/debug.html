@@ -1,0 +1,4 @@
+<pre>
+  {% assign tags = site.case-studies | map: 'tags' | uniq %}
+  {{ tags | inspect }}
+</pre>
