@@ -2,12 +2,17 @@
 
 # To do
 - [ ] Migrate from Hugo theme
-  - [ ] figure out archetypes
-  - [ ] migrate css
+  - [x] figure out archetypes
+  - [x] migrate css
   - [ ] migrate page layouts
   - [ ] migrate page contents
-  - [ ] figure out resume json
+  - [ ] migrate icons
+  - [ ] migrate javascript
+  - [ ] migrate taxonomies/terms?
+  - [x] figure out resume json
 - [ ] set up frontmatter metadata
 - [ ] figure out noindex on page basis
-- [ ] figure out how to make a local theme
+- [x] figure out how to make a local theme
 - [ ] figure out how to do excerpts
+- [ ] better image include
+- [ ] polish style/formatting

@@ -1,0 +1,23 @@
+{
+  "name": "Sarah Whinnem",
+  "location": "New York, NY",
+  "phone": "860-288-4277",
+  "tagline": "Product Design Leader",
+  "profileImage": "https://www.gravatar.com/avatar/fdfe59c18478a5e031216b60c1584f4e",
+  "email": "sarah@madysondesigns.com",
+  "description": "I’m a product design leader with over 15 years of experience in the design and tech world. I love to make users’ lives more delightful by breaking down and solving complex problems in simple ways.",
+  "social": [
+    {
+      "name": "LinkedIn",
+      "link": "http://www.linkedin.com/in/madysondesigns"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/madysondesigns/"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/madysondesigns"
+    }
+  ]
+}

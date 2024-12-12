@@ -4,11 +4,11 @@
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
   <a class="navbar-brand js-scroll-trigger" href="{{ site.url | relative_url }}">
     <div class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ .Site.Params.profileImage }}?s=400" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ site.data.personal.profileImage }}?s=400" alt="">
     </div>
-    <h1 class="d-block nav-name">{{ site.title | escape }}</h1>
-    <div class="d-none d-lg-block nav-location">{{ .Site.Params.contactNote }}</div>
-    <div class="d-none d-lg-block nav-location">{{ .Site.Params.address }}</div>
+    <h1 class="d-block nav-name">{{ site.data.personal.name | escape }}</h1>
+    <div class="d-none d-lg-block nav-location">{{ site.data.personal.tagline }}</div>
+    <div class="d-none d-lg-block nav-location">{{ site.data.personal.location }}</div>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="fa fa-bars"></span>
