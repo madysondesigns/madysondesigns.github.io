@@ -8,12 +8,7 @@ permalink: /about/
 
 I'm a designer, a problem solver, a collaborator, and a leader. Let's work together.
 
-<figure class="portfolio-figure">
-<img alt="The Betterment design team at work" src="/assets/images/betterment-team.jpg">
-  <figcaption>
-    <h4>Betterment's design team at work. That's me on the left.</h4>
-  </figcaption>
-</figure>
+{% include figure.html src="betterment-team.jpg" caption="Betterment's design team at work. That's me on the left." alt="The Betterment design team at work" %}
 
 ## What I Do
 
@@ -21,12 +16,7 @@ I'm most recently at Fundera, where I am working on the first digital finance pl
 
 I was previously at Betterment, where I helped to design and build a better financial experience from the ground up. I’ve helped the team grow from 12 to over 200, and contributed to growing customers from 10,000 to over 250,000.
 
-<figure class="portfolio-figure">
-<img alt="An early Betterment team photo" src="/assets/images/og-bmt-team.jpg">
-  <figcaption>
-    <h4>An early Betterment team photo. We've come a long way!</h4>
-  </figcaption>
-</figure>
+{% include figure.html src="og-bmt-team.jpg" caption="An early Betterment team photo. We've come a long way!" alt="An early Betterment team photo" %}
 
 ### Design Director
 
@@ -48,12 +38,7 @@ I design and manage research to dig into user behavior, from field studies to us
 
 I built features end-to-end across all Betterment applications, from front- end apps to internal tools. I managed all WordPress environments and contributed on code reviews, deployments, and infrastructure.
 
-<figure class="portfolio-figure">
-<img alt="Me, working away" src="/assets/images/sarah-old-office.jpg">
-  <figcaption>
-    <h4>A typical day of work. Definitely not trying to ignore the photographer.</h4>
-  </figcaption>
-</figure>
+{% include figure.html src="sarah-old-office.jpg" caption="A typical day of work. Definitely not trying to ignore the photographer." alt="TMe, working away" %}
 
 ## What Drives Me
 
@@ -77,9 +62,4 @@ Diverse groups are more innovative and create a culture that is more productive 
 
 People who are happy and having fun do better work. Users who enjoy their experience are loyal and have trust in the product. I love finding and creating those moments of joy.
 
-<figure class="portfolio-figure">
-<img alt="Betterment Pride" src="/assets/images/better-pride.jpg">
-  <figcaption>
-    <h4>The Betterment team celebrates Pride (featuring shirts I designed!)</h4>
-  </figcaption>
-</figure>
+{% include figure.html src="better-pride.jpg" caption="The Betterment team celebrates Pride (featuring shirts I designed!)" alt="The Betterment showing their Pride" %}

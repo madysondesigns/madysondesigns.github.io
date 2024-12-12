@@ -15,7 +15,7 @@
 - [x] figure out noindex on page basis
 - [x] figure out how to make a local theme
 - [x] figure out how to do excerpts
+- [x] better image include
 - [ ] clean up frontmatter metadata
 - [ ] update/fix left nav
-- [ ] better image include
 - [ ] polish style/formatting
