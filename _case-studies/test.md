@@ -1,5 +1,5 @@
 ---
-layout: case-studies
+layout: case-studies/page
 noindex: true
 title: Test
 tags: ["testing"]

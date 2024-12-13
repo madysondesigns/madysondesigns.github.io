@@ -1,6 +1,10 @@
-<section class="resume-section" id="case-studies">
-  <div class="my-auto resume-content" id="projects-content">
-    <h2 class="mb-5">Case Studies</h2>
+---
+layout: default
+---
+
+<section class="resume-section d-flex d-column" id="{{ page.title }}">
+  <div class="my-auto">
+    <h1 class="mb-0">{{ page.title }}</h1>
     <p>Here are a few examples of how I approach design and product challenges.</p>
     {%- for page in site.case-studies -%}
       <h3 class="mt-5"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>

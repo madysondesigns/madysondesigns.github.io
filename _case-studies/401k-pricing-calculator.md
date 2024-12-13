@@ -1,5 +1,5 @@
 ---
-layout: case-studies
+layout: case-studies/page
 noindex: false
 title: "401(k) Pricing Calculator"
 date: 2017-10-03
