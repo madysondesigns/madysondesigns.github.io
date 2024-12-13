@@ -426,7 +426,7 @@ section.resume-section {
   margin-bottom: var(--size-xs);
 }
 
-.case-study-excerpt a {
+.more-link {
   font-weight: var(--font-bold);
   font-style: italic;
 }

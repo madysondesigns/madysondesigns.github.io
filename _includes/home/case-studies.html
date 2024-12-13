@@ -1,17 +1,18 @@
 <section class="resume-section" id="case-studies">
   <div class="my-auto resume-content" id="projects-content">
     <h2 class="mb-5">Case Studies</h2>
-    <p>Here are a few examples of how I approach design and product challenges.</p>
-    {%- for page in site.case-studies reversed -%}
+    <p>Here some recent examples of how I approach design and product challenges.</p>
+    <p><a class="more-link" href="/case-studies/">See all Case Studies</a></p>
+    {%- assign pages = site.case-studies | where: "featured", "true" -%}
+    {%- for page in pages reversed -%}
       <h3 class="mt-5"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
       <div class="resume-item">
         <div class="case-study-photo mr-4">
           <img src="{{ page.image }}" style="max-height:150px;max-width:150px;" />
         </div>
         <div class="case-study-excerpt">
-          <p>{{ page.description | safeHTML }}
-          <p>
-          <p class><a href="{{ page.url | relative_url }}">Read more...</a></p>
+          <p>{{ page.description }}</p>
+          <p><a class="more-link" href="{{ page.url | relative_url }}">Read more...</a></p>
         </div>
       </div>
       {%- include tags.html -%}
