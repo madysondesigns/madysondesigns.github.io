@@ -2,7 +2,7 @@
 layout: case-studies/page
 noindex: false
 title: "Advisor Matching Service"
-date: 2017-10-03
+date: 2017-09-03
 featured: true
 image: "/assets/images/feature-match.jpg"
 description: "I created a system of workflows to match up Betterment's individual customers with investment advisor partners. This project spanned the end-to-end experience including customer- and advisor-facing tools and all commmunication touchpoints."

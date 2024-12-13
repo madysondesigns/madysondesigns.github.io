@@ -2,7 +2,7 @@
 layout: case-studies/page
 noindex: false
 title: "Product Leadership for B2B Teams"
-date: 2017-09-30
+date: 2016-09-30
 featured: true
 image: "/assets/images/feature-process.jpg"
 description: "I created a product-inspired process to help B2B teams at Betterment collaborate smoothly. My job was to encourage communication and good product strategy in a marketing-heavy role."

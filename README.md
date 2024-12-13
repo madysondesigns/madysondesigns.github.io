@@ -25,6 +25,7 @@ Most things are auto-generated based on filenames and paths:
   - [x] create case studies index page
   - [x] migrate case study contents
   - [x] migrate javascript
+  - [x] fix favicon
 - [x] why are styles broken
 - [x] figure out noindex on page basis
 - [x] figure out how to make a local theme
