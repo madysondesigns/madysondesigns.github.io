@@ -8,10 +8,10 @@
   - [x] figure out resume json
   - [x] migrate icons
   - [x] set up breadcrumbs
-  - [ ] set up tags/taxonomies/terms?
-  - [ ] create case studies index page
+  - [x] set up tags/taxonomies/terms?
+  - [x] create case studies index page
+  - [x] migrate case study contents
   - [ ] migrate javascript
-  - [ ] migrate case study contents
 - [x] why are styles broken
 - [x] figure out noindex on page basis
 - [x] figure out how to make a local theme

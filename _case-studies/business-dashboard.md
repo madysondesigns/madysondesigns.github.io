@@ -20,7 +20,9 @@ For this project, my team and I focused our attention on a very specific segment
 
 There are a couple reasons why users might fall into this segment: they have not started their business or started it recently (many of our lenders have minimum time in business requirements); or they may not qualify for loans due to their credit profile (business loans rely on both personal and business credit (did you know that was a thing?) and have much stricter credit requirements).
 
-{% include figure.html src="fundera-eda.jpg" caption="The Fundera team on an outing to Everyday Athlete, a climbing and athletic gym in Brooklyn." alt="Fundera team at Everyday Athlete" %}
+{% include figure.html src="fundera-eda.jpg"
+    caption="The Fundera team on an outing to Everyday Athlete, a climbing and athletic gym in Brooklyn."
+    alt="Fundera team at Everyday Athlete" %}
 
 ## Research
 Once we identify that a user belongs to this segment within the existing loan experience, we hand the user off to a different experience that no longer shows available loans, but instead shows products that the user is more qualified for (such as business credit cards). That’s the experience I have been tasked with creating and improving.

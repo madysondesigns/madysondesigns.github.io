@@ -2,7 +2,7 @@
   <div class="my-auto resume-content" id="projects-content">
     <h2 class="mb-5">Case Studies</h2>
     <p>Here are a few examples of how I approach design and product challenges.</p>
-    {%- for page in site.case-studies -%}
+    {%- for page in site.case-studies reversed -%}
       <h3 class="mt-5"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
       <div class="resume-item">
         <div class="case-study-photo mr-4">

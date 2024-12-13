@@ -535,6 +535,14 @@ section.resume-section {
   float: left;
 }
 
+.content .tags {
+  margin-top: var(--size-l);
+}
+
+.content .tags li {
+  margin: 0;
+}
+
 .content .tags li:before {
   display: none;
 }
