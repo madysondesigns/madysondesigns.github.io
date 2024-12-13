@@ -17,6 +17,6 @@
 - [x] figure out how to make a local theme
 - [x] figure out how to do excerpts
 - [x] better image include
+- [x] update/fix left nav
 - [ ] clean up frontmatter metadata
-- [ ] update/fix left nav
 - [ ] polish style/formatting

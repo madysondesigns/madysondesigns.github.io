@@ -1,0 +1,22 @@
+[
+  {
+    "label": "About Me",
+    "id": "about"
+  },
+  {
+    "label": "Case Studies",
+    "id": "case-studies"
+  },
+  {
+    "label": "Skills",
+    "id": "skills"
+  },
+  {
+    "label": "Experience",
+    "id": "experience"
+  },
+  {
+    "label": "Education",
+    "id": "education"
+  }
+]

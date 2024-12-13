@@ -15,18 +15,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav list-unstyled">
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-
-      {%- for case-study in site.case-studies -%}
+      {%- for link in site.data.nav -%}
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="{{ case-study.url | relative_url }}">{{ case-study.title | escape }}</a>
+        <a class="nav-link js-scroll-trigger" href="/#{{ link.id }}">{{ link.label }}</a>
       </li>
       {%- endfor -%}
     </ul>
