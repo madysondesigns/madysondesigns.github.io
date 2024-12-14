@@ -8,39 +8,21 @@ permalink: /about/
 
 I'm a designer, a problem solver, a collaborator, and a leader. Let's work together.
 
-{% include figure.html src="betterment-team.jpg" caption="Betterment's design team at work. That's me on the left." alt="The Betterment design team at work" %}
-
 ## What I Do
 
-I'm most recently at Fundera, where I am working on the first digital finance platform for 20k new business owners. I am leading design for a cross-functional team that is pioneering user conversion at the same time as doubling revenue for new product markets.
+I'm most recently at Flatiron Health, where I helped to improve the patient and oncologist experience as well as the designer and developer experience. I worked on our Electronic Health Record platform and its corresponding patient-facing health portal to build features that brought patients and oncologists closer together and improve collaboration practice-wide. I also founded our Design Systems team and focused on product evangelism, design strategy, scaling, and hiring.
 
-I was previously at Betterment, where I helped to design and build a better financial experience from the ground up. I’ve helped the team grow from 12 to over 200, and contributed to growing customers from 10,000 to over 250,000.
+{% include figure.html src="sarah-flatiron.jpg" caption="Having an engaging conversation about something design-related, probably." alt="Sarah at the Flatiron office" %}
 
-{% include figure.html src="og-bmt-team.jpg" caption="An early Betterment team photo. We've come a long way!" alt="An early Betterment team photo" %}
+Before that I was at Fundera, where I worked on the first digital finance platform for 20k new business owners. I led design for a cross-functional team tasked with pioneering user conversion at the same time as doubling revenue for new product markets.
 
-### Design Director
+Further back I was at Betterment, where I helped to design and build a better financial experience from the ground up. I’ve helped the team grow from 12 to over 200, and contributed to growing customers from 10,000 to over 250,000.
 
-I build and lead design teams that create holistic experiences. I built and led Betterment’s first team of 4 designers. I also led design for two different business lines simultaneously, managing process and creative between stakeholders, and acquiring thousands of clients.
-
-### Design System Lead
-
-I pioneered what a shared design system means to Betterment – growing it from a simple color library to managing 200+ components and 30 contributors, most recently powering an entire rebrand project in 6 weeks.
-
-### Product Designer
-
-I lead day-to-day product design on an agile team building new features. I am involved in roadmapping, strategy, and research, and I drive execution – from experience and visual design to collaborating with engineers.
-
-### Research Specialist
-
-I design and manage research to dig into user behavior, from field studies to usability. I’m an expert at identifying patterns in how users think and insights in how they feel and turning them into actionable product goals.
-
-### Software Engineer
-
-I built features end-to-end across all Betterment applications, from front- end apps to internal tools. I managed all WordPress environments and contributed on code reviews, deployments, and infrastructure.
-
-{% include figure.html src="sarah-old-office.jpg" caption="A typical day of work. Definitely not trying to ignore the photographer." alt="TMe, working away" %}
+All along the way, I've done consulting work in UX, design, and branding for clients in healthcare, tech, and small business.
 
 ## What Drives Me
+
+{% include figure.html src="flatiron-design.jpg" caption="Sharing a bonding moment with the Flatiron design team" alt="Flatiron Health's design team sharing lunch" %}
 
 ### Solving Problems
 
