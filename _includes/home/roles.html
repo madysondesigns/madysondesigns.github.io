@@ -1,0 +1,20 @@
+<section class="resume-section" id="roles">
+  <div class="my-auto resume-content" id="roles-content">
+    <h2 class="mb-5">Roles</h2>
+    {%- for role in site.data.roles -%}
+    <div class="resume-item">
+      <div class="resume-content mr-auto">
+        <h4 class="my-0">{{ role.company }}</h4>
+        <h3 class="my-0">{{ role.title }}</h3>
+        <p>{{ role.summary }}</p>
+        {%- if role.previous -%}
+          <p><em>(previously) {{ role.previous }}</em></p>
+        {%- endif -%}
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">{{ role.range }}</span>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>

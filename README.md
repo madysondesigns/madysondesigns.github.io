@@ -1,5 +1,5 @@
-# madysondesigns.github.io
-Finally, a simple and easy-to-grok portfolio site. No deeply nested files, no separate theme to manage, just a sensible IA and clean content.
+# Yet another portfolio site
+Finally, a simple and easy-to-grok portfolio site intended to run on GH pages. No deeply nested files, no separate theme to manage, just a sensible IA and clean content.
 
 ## Where to put things
 - Case study content goes in `/_case-studies` -- `_template.md` includes necessary info
@@ -33,7 +33,8 @@ Most things are auto-generated based on filenames and paths:
 - [x] better image include
 - [x] update/fix left nav
 - [x] clean up frontmatter metadata
-- [ ] update resume content
+- [x] update resume content
+- [ ] redirect url
 - [ ] add more/new case studies
   - [ ] carespace labs
   - [ ] wellsheet

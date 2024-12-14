@@ -1,26 +1,22 @@
 [
-    {
-        "role":"Principal Product Designer",
-        "company":"Fundera",
-        "summary":"Fundera is a small business marketplace for financial products and tools. I am working on the first digital finance platform for 20k new business owners, focusing on increasing both engagement and revenue conversion.",
-        "range":"2017-Present"
-    },
-    {
-        "role":"Senior Product Designer",
-        "company":"Betterment",
-        "summary":"Betterment is a digital investment platform that improves customers’ financial lives. I built and led the first design team, helped grow the team from 12–200+, and the customer base from 10,000 to over 250,000.",
-        "range":"2011-2017"
-    },
-    {
-        "role":"Graphic & Digital Designer",
-        "company":"ING Group, Inc.",
-        "summary":"Design print materials, digital and interactive tools, and branding packages.",
-        "range":"2009-2011"
-    },
-    {
-        "role":"Graphic Designer",
-        "company":"ThermoSpas, Inc.",
-        "summary":"Design print materials, e-commerce websites, advertisements and direct mail.",
-        "range":"2007-2009"
-    }
+  {
+    "label": "Design Leadership",
+    "summary": "I build and lead design teams that create holistic experiences. At Flatiron, I helped scale the team from 5 to 25+ designers, including our processes for hiring, collaboration, research, quality, tooling, and documentation."
+  },
+  {
+    "label": "Design Systems",
+    "summary": "I think in design systems, creating cohesive and flexible user experiences. I led the DS initiative at Flatiron, providing an ongoing product vision and centralized support for our component library used in 20+ applications."
+  },
+  {
+    "label": "Product Design",
+    "summary": "I lead day-to-day user-centered design on agile feature teams. I am involved in roadmapping, research, and strategy, and I drive execution – from experience and visual design to collaborating with engineers."
+  },
+  {
+    "label": "UX Research",
+    "summary": "I design and manage research to dig into user behavior, from field studies to usability. I’m an expert at identifying patterns in how users think and insights in how they feel and turning them into actionable product goals."
+  },
+  {
+    "label": "Technical Design",
+    "summary": "I build features end-to-end across applications, from front-end apps to internal tools. I specialize in front-end and living design systems, and actively participate in code reviews, deployments, and infrastructure."
+  }
 ]
