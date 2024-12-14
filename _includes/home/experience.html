@@ -1,13 +1,8 @@
-<section class="resume-section" id="experience">
-  <div class="my-auto resume-content" id="experience-content">
-    <h2 class="mb-5">Experience</h2>
-    {%- for experience in site.data.experience -%}
-      <div class="resume-item">
-        <div class="resume-content mr-auto">
-        <h3 class="my-0">{{ experience.label }}</h3>
-        <p>{{ experience.summary }}</p>
-      </div>
-    </div>
-    {%- endfor -%}
+{%- for experience in site.data.experience -%}
+  <div class="resume-item">
+    <div class="resume-content mr-auto">
+    <h3 class="my-0">{{ experience.title }}</h3>
+    <p>{{ experience.summary }}</p>
   </div>
-</section>
+</div>
+{%- endfor -%}

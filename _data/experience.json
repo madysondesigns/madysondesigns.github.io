@@ -1,22 +1,22 @@
 [
   {
-    "label": "Design Leadership",
+    "title": "Design Leadership",
     "summary": "I build and lead design teams that create holistic experiences. At Flatiron, I helped scale the team from 5 to 25+ designers, including our processes for hiring, collaboration, research, quality, tooling, and documentation."
   },
   {
-    "label": "Design Systems",
+    "title": "Design Systems",
     "summary": "I think in design systems, creating cohesive and flexible user experiences. I led the DS initiative at Flatiron, providing an ongoing product vision and centralized support for our component library used in 20+ applications."
   },
   {
-    "label": "Product Design",
+    "title": "Product Design",
     "summary": "I lead day-to-day user-centered design on agile feature teams. I am involved in roadmapping, research, and strategy, and I drive execution – from experience and visual design to collaborating with engineers."
   },
   {
-    "label": "UX Research",
+    "title": "UX Research",
     "summary": "I design and manage research to dig into user behavior, from field studies to usability. I’m an expert at identifying patterns in how users think and insights in how they feel and turning them into actionable product goals."
   },
   {
-    "label": "Technical Design",
+    "title": "Technical Design",
     "summary": "I build features end-to-end across applications, from front-end apps to internal tools. I specialize in front-end and living design systems, and actively participate in code reviews, deployments, and infrastructure."
   }
 ]

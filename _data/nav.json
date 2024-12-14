@@ -1,26 +1,26 @@
 [
   {
-    "label": "About Me",
+    "title": "About Me",
     "id": "about"
   },
   {
-    "label": "Case Studies",
+    "title": "Case Studies",
     "id": "case-studies"
   },
   {
-    "label": "Experience",
+    "title": "Experience",
     "id": "experience"
   },
   {
-    "label": "Roles",
+    "title": "Roles",
     "id": "roles"
   },
   {
-    "label": "Education",
-    "id": "education"
+    "title": "Skills",
+    "id": "skills"
   },
   {
-    "label": "Skills",
-    "id": "skills"
+    "title": "Education",
+    "id": "education"
   }
 ]

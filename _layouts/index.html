@@ -2,9 +2,13 @@
 layout: default
 ---
 
-{%- include home/about.html -%}
-{%- include home/case-studies.html -%}
-{%- include home/experience.html -%}
-{%- include home/roles.html -%}
-{%- include home/education.html -%}
-{%- include home/skills.html -%}
+{%- for link in site.data.nav -%}
+  <section class="resume-section" id="{{link.id}}">
+    <div class="my-auto resume-content">
+      {%- if link.id != "about" -%}
+        <h2 class="mb-5">{{link.title}}</h2>
+      {%- endif -%}
+      {%- include home/{{link.id}}.html -%}
+    </div>
+  </section>
+{%- endfor -%}

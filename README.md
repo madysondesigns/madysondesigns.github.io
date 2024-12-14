@@ -13,6 +13,8 @@ Most things are auto-generated based on filenames and paths:
 - Helpers and partial markup live in `/_includes`
 - Case studies are a custom collection with an index page
 
+Run local dev site with `bundle exec jekyll serve --livereload`
+
 # To do
 - [x] Migrate from Hugo theme
   - [x] figure out archetypes

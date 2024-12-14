@@ -1,16 +1,11 @@
-<section class="resume-section" id="skills">
-  <div class="my-auto resume-content" id="skills-content">
-    <h2 class="mb-5">Skills</h2>
-    {%- for skill in site.data.skills -%}
-      <h3 class="mb-0">{{ skill.grouping }}</h3>
-      <ul class="list-unstyled">
-      {%- for keyword in skill.keywords -%}
-        <li class="d-sm-inline-block">
-          <i class="fa fa-angle-right"></i>
-          {{ keyword }}
-        </li>
-      {%- endfor -%}
-      </ul>
-    {%- endfor -%}
-  </div>
-</section>
+{%- for skill in site.data.skills -%}
+  <h3 class="mb-0">{{ skill.grouping }}</h3>
+  <ul class="list-unstyled">
+  {%- for keyword in skill.keywords -%}
+    <li class="d-sm-inline-block">
+      <i class="fa fa-angle-right"></i>
+      {{ keyword }}
+    </li>
+  {%- endfor -%}
+  </ul>
+{%- endfor -%}
