@@ -36,11 +36,13 @@ Run local dev site with `bundle exec jekyll serve --livereload`
 - [x] update/fix left nav
 - [x] clean up frontmatter metadata
 - [x] update resume content
-- [ ] redirect url
+- [x] redirect url
+- [x] cover for /resume typos
 - [ ] add more/new case studies
   - [ ] carespace labs
   - [ ] wellsheet
   - [ ] group inboxes shared views?
 - [ ] decide what to do with breadcrumbs
+- [ ] add actual content for /resume
 - [ ] tag archive pages?
 - [ ] polish style/formatting
