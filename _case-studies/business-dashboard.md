@@ -66,7 +66,7 @@ Once we had wrapped our head around the problems, landscape, and goals of this e
 ### Hypothesis 1: Being transparent and informative about users’ capital options will increase conversion.
 For this first phase, we focused only on the copy in the existing experience. What if we simply rewrote everything to give users better guidance? After all, these users came to Fundera expecting to get a business loan, and we could not fulfill that promise. Therefore, they are likely to be confused and frustrated about their experience.
 
-{% include figure.html src="dashboard-nlm.png" caption="This is the \"dashboard\" I started with. This first test wouldn't touch the design (yet!)." alt="Previous Fundera dashboard" %}
+{% include figure.html src="dashboard-nlm.png" caption="This is the &quot;dashboard&quot; I started with. This first test wouldn't touch the design (yet!)." alt="Previous Fundera dashboard" %}
 
 I wrote a copy brief so the content team knew the direction we wanted to go, and then worked with engineers to split test the new copy against the existing copy. This test ran while we were working on the next phases. After it was finished, it gave us about a 9% increase in conversion, which we defined as taking action to sign up for a business credit card. It wasn’t a huge jump, but it validated that we were headed in the right direction.
 
@@ -109,7 +109,7 @@ Some current and planned features:
 - Streamlining the signup and verification process. How might we reduce the amount of effort required from the user to show them the information that matters to them?
 - A tool that analyzes a business’s spending data and can calculate the best way to maximize credit card reward programs. This is basically free money for business owners, and I can’t wait to ship this.
 
-{% include figure.html src="dashboard-shop.png" caption="One new feature I worked on was a \"shopping\" experience for business credit cards." alt="Fundera dashboard shopping experience" %}
+{% include figure.html src="dashboard-shop.png" caption="One new feature I worked on was a &quot;shopping&quot; experience for business credit cards." alt="Fundera dashboard shopping experience" %}
 
 Each of these features adds an additional opportunity for users to convert to products at any point in their journey, which provides a more organic experience for them and a more focused approach for us.
 

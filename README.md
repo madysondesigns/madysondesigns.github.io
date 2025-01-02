@@ -38,6 +38,7 @@ Run local dev site with `bundle exec jekyll serve --livereload`
 - [x] update resume content
 - [x] redirect url
 - [x] cover for /resume typos
+- [x] add lightbox to enlarge image
 - [ ] add more/new case studies
   - [ ] carespace labs
   - [ ] wellsheet

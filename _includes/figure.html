@@ -1,5 +1,14 @@
 <figure class="portfolio-figure">
-  <img alt="{{ include.alt }}" src="/assets/images/{{ include.src }}" />
+  <a href="/assets/images/{{ include.src }}"
+    data-lightbox="{{ include.src }}"
+    data-alt="{{ include.alt }}"
+    data-title="{{ include.caption }}"
+  >
+    <img
+      src="/assets/images/{{ include.src }}"
+      alt="{{ include.alt }}"
+    />
+  </a>
   <figcaption>
     <h4>{{ include.caption }}</h4>
   </figcaption>
