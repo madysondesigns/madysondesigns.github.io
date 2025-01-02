@@ -40,8 +40,8 @@ Run local dev site with `bundle exec jekyll serve --livereload`
 - [x] cover for /resume typos
 - [x] add lightbox to enlarge image
 - [ ] add more/new case studies
+  - [x] wellsheet
   - [ ] carespace labs
-  - [ ] wellsheet
   - [ ] group inboxes shared views?
 - [ ] decide what to do with breadcrumbs
 - [ ] add actual content for /resume

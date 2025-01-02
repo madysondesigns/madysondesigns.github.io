@@ -478,6 +478,10 @@ section.resume-section {
     color: var(--color-accent);
 }
 
+.content li ul, .content li ol {
+  margin-left: 2em;
+}
+
 .content ul p, .content ol p {
     display: inline;
     margin: 0;
@@ -519,6 +523,14 @@ section.resume-section {
     font-style: normal;
     font-size: 1.5em;
     color: var(--color-accent);
+}
+
+#lightbox .lb-data .lb-caption {
+  font-style: italic;
+  font-weight: var(--font-semi-bold);
+  font-size: 1em;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
 }
 
 .tags {
