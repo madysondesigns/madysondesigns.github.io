@@ -1,7 +1,7 @@
 ---
 layout: case-studies/page
 noindex: true
-title: Test
+title: Name in Title Case
 date: 2025-01-01
 featured: true
 image: "/assets/images/foo.png"
