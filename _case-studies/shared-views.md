@@ -1,7 +1,7 @@
 ---
 layout: case-studies/page
 noindex: true
-title: Shared views for task collaboration
+title: Shared Views for Task Collaboration
 date: 2019-04-19
 featured: true
 image: "/assets/images/sv-thumbnail.png"
