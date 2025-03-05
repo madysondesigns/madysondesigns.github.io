@@ -487,8 +487,10 @@ section.resume-section {
     margin: 0;
 }
 
-.content ul li:before {
+.content ul > li:before {
     content: counter(custom-counter, disc);
+    font-size: 1.5em;
+    top: calc(-1 * var(--size-xs));
 }
 
 .content ol li:before {
@@ -496,6 +498,10 @@ section.resume-section {
     left: calc(-1 * var(--size-m));
     font-weight: var(--font-bold);
     font-style: italic;
+}
+
+.content ol ol li:before {
+  content: counter(custom-counter, lower-alpha);
 }
 
 .portfolio-figure {
