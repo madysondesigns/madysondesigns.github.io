@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-imageFolder: "about-me/"
+image-folder: "about-me/"
 ---
 
 #### I’m looking for an opportunity where I can help figure out what design and user experience means to an organization, its products, and its team.

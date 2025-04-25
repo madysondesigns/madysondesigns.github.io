@@ -5,7 +5,7 @@ title: "Product Leadership for B2B Teams"
 date: 2016-09-30
 featured: true
 thumbnail: "kickoff.jpg"
-imageFolder: "b2b-process/"
+image-folder: "b2b-process/"
 description: "I created a product-inspired process to help B2B teams at Betterment collaborate smoothly. My job was to encourage communication and good product strategy in a marketing-heavy role."
 tags: ["Product Management", "Process"]
 ---

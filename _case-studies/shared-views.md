@@ -5,7 +5,7 @@ title: Shared Views for Task Collaboration
 date: 2019-04-19
 featured: true
 thumbnail: "thumbnail.png"
-imageFolder: "shared-views/"
+image-folder: "shared-views/"
 description: "My first major project at Flatiron was to improve an existing workflow for viewing and filtering user tasks to give oncology practices a way to improve collaboration and consistency by sharing views across their staff."
 tags: ["Product Strategy", "Research", "Prototyping", "Design Systems"]
 ---
