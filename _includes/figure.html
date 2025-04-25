@@ -1,11 +1,11 @@
 <figure class="portfolio-figure">
-  <a href="/assets/images/{{ include.src }}"
-    data-lightbox="{{ include.src }}"
+  <a href="/assets/images/{{ page.imageFolder }}{{ include.src }}"
+    data-lightbox="{{ page.imageFolder }}{{ include.src }}"
     data-alt="{{ include.alt }}"
     data-title="{{ include.caption }}"
   >
     <img
-      src="/assets/images/{{ include.src }}"
+      src="/assets/images/{{ page.imageFolder }}{{ include.src }}"
       alt="{{ include.alt }}"
     />
   </a>

@@ -5,6 +5,7 @@ title: Name in Title Case
 date: 2025-01-01
 featured: true
 image: "/assets/images/foo.png"
+imageFolder: ""
 description: "TL;DR blurb here"
 tags: ["foo"]
 ---
