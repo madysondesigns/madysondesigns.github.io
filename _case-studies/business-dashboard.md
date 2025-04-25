@@ -4,7 +4,8 @@ noindex: false
 title: "Dashboard for Startup Businesses"
 date: 2018-05-01
 featured: true
-thumbnail: "feature-dashboard.png"
+thumbnail: "thumbnail.png"
+imageFolder: "fundera/"
 description: "I built Fundera’s first signed-in home experience for small business owners. This was a long-term, iterative project that will be the foundation for a signed-in experience for all Fundera customers and makes huge progress towards expanding our value as not just a loan marketplace, but a true digital finance partner. "
 tags: ["Product Strategy","Research", "Prototyping", "Visual Design"]
 ---
@@ -20,7 +21,7 @@ For this project, my team and I focused our attention on a very specific segment
 
 There are a couple reasons why users might fall into this segment: they have not started their business or started it recently (many of our lenders have minimum time in business requirements); or they may not qualify for loans due to their credit profile (business loans rely on both personal and business credit (did you know that was a thing?) and have much stricter credit requirements).
 
-{% include figure.html src="fundera-eda.jpg"
+{% include figure.html src="team.jpg"
     caption="The Fundera team on an outing to Everyday Athlete, a climbing and athletic gym in Brooklyn."
     alt="Fundera team at Everyday Athlete" %}
 
@@ -56,7 +57,7 @@ I also did some research into dashboard experiences in the SAAS world. I looked 
 - Helpful, trustworthy, and personable content and commentary (I love Intuit’s Turbo’s messaging).
 - Clean and intuitive patterns of showing data: graphs, tables, and timelines (Headspace, Betterment, and Typeform are all beautiful).
 
-{% include figure.html src="dashboard-inspo.png" caption="Screenshots of other dashboard features I liked: Shopify, Google Analytics, Turbo, Headspace, Betterment, Typeform." alt="Screenshots of dashboards I like" %}
+{% include figure.html src="inspiration.png" caption="Screenshots of other dashboard features I liked: Shopify, Google Analytics, Turbo, Headspace, Betterment, Typeform." alt="Screenshots of dashboards I like" %}
 
 Based on all this information, it was clear that we had a lot of blue sky to start exploring.
 
@@ -66,7 +67,7 @@ Once we had wrapped our head around the problems, landscape, and goals of this e
 ### Hypothesis 1: Being transparent and informative about users’ capital options will increase conversion.
 For this first phase, we focused only on the copy in the existing experience. What if we simply rewrote everything to give users better guidance? After all, these users came to Fundera expecting to get a business loan, and we could not fulfill that promise. Therefore, they are likely to be confused and frustrated about their experience.
 
-{% include figure.html src="dashboard-nlm.png" caption="This is the &quot;dashboard&quot; I started with. This first test wouldn't touch the design (yet!)." alt="Previous Fundera dashboard" %}
+{% include figure.html src="dashboard-previous.png" caption="This is the &quot;dashboard&quot; I started with. This first test wouldn't touch the design (yet!)." alt="Previous Fundera dashboard" %}
 
 I wrote a copy brief so the content team knew the direction we wanted to go, and then worked with engineers to split test the new copy against the existing copy. This test ran while we were working on the next phases. After it was finished, it gave us about a 9% increase in conversion, which we defined as taking action to sign up for a business credit card. It wasn’t a huge jump, but it validated that we were headed in the right direction.
 
