@@ -1,11 +1,12 @@
 <figure class="portfolio-figure">
-  <a href="/assets/images/{{ page.image-folder }}{{ include.src }}"
-    data-lightbox="{{ page.image-folder }}{{ include.src }}"
+  {% assign image-src = page.image-folder | append: "/" | default: "" | append: include.src %}
+  <a href="{{ site.image_path | append: image-src }}"
+    data-lightbox="{{ image-src }}"
     data-alt="{{ include.alt }}"
     data-title="{{ include.caption }}"
   >
     <img
-      src="/assets/images/{{ page.image-folder }}{{ include.src }}"
+      src="{{ site.image_path | append: image-src }}"
       alt="{{ include.alt }}"
     />
   </a>

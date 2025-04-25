@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I’m a product design leader with over 15 years of experience in the design
   and tech world.
 baseurl: "" # the subpath of your site, e.g. /blog
+image_path: "/assets/images/"
 url: "https://madysondesigns.com" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: "UA-7398437-1"
 

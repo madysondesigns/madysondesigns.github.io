@@ -5,7 +5,7 @@ title: Healthcare Dashboard UX Audit
 date: 2017-10-20
 featured: true
 thumbnail: "thumbnail.png"
-image-folder: "wellsheet/"
+image-folder: "wellsheet"
 description: "I worked with an early-stage healthcare startup to audit their current MVP product and guide their future design strategy. This was a freelance project that was meant to give the team an actionable way to integrate good design into their product roadmap to improve the user experience over time. "
 tags: ["Research", "Product Strategy", "Design Systems", "Consulting"]
 ---
