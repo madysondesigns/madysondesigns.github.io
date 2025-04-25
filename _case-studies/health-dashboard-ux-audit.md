@@ -4,7 +4,8 @@ noindex: true
 title: Healthcare Dashboard UX Audit
 date: 2017-10-20
 featured: true
-thumbnail: "feature-wellsheet.png"
+thumbnail: "thumbnail.png"
+imageFolder: "wellsheet/"
 description: "I worked with an early-stage healthcare startup to audit their current MVP product and guide their future design strategy. This was a freelance project that was meant to give the team an actionable way to integrate good design into their product roadmap to improve the user experience over time. "
 tags: ["Research", "Product Strategy", "Design Systems", "Consulting"]
 ---
@@ -13,7 +14,7 @@ tags: ["Research", "Product Strategy", "Design Systems", "Consulting"]
 
 Wellsheet is a workflow plugin that integrates into some of the largest Electronic Health Record platforms (such as Athena or Epic). It extends the EHR's feature set to optimize a care team's productivity with better data, more efficient UX, and more actionable insights. A former colleague is one of the founding team members and asked if I would consult with them until they had dedicated design resources.
 
-{% include figure.html src="wellsheet-hero.png"
+{% include figure.html src="hero.png"
     caption="Wellsheet's current MVP that takes EHR data and organizes it into a more efficient dashboard so users can better understand the full picture of their patients' health."
     alt="Screenshots of the Wellsheet dashboard on desktop and mobile" %}
 
@@ -72,7 +73,7 @@ The first step was to understand the product's information architecture by revie
 
 From this audit, I built maps showing how that data is organized and how the user navigates around. I also put together a set of sample wireframes to illustrate how the architecture could be better organized.
 
-{% include figure.html src="wellsheet-ia-map.png"
+{% include figure.html src="ia-map.png"
     caption="Information architecture (IA) focuses on organizing, structuring, and labeling content in an effective and sustainable way. The IA map lists the types of data in Wellsheet and how that data is currently structured."
     alt="IA map that lists the types of data in Wellsheet and how that data is currently structured" %}
 
@@ -80,7 +81,7 @@ From this audit, I built maps showing how that data is organized and how the use
 
 Next, I went through the product again with an eye to visual design, UI interactions, and consistency. Wellsheet's initial version was built without any thought towards consistency in typography, color, or interactive components. I put together a document showing the wide variations in these elements so the team could see them all together and understand how these inconsistencies were compromising the UX. I included UI and style guide recommendations in my report.
 
-{% include figure.html src="wellsheet-visual-audit.png"
+{% include figure.html src="visual-audit.png"
     caption="A visual audit is a method of combing through an interface for stylistic consistency. This is an example showing an inventory of all the form elements currently in the Wellsheet product."
     alt="An example inventory showing all the form elements currently in the Wellsheet product" %}
 
@@ -107,7 +108,7 @@ An example solution to this last bullet point:
 * **Improve navigation functionality and flexibility** – The power of Wellsheet is in its data filtering capabilities. We need to give users an easy to use way to explore and change how they view patient data.
 * **Surface and prioritize patient data** – Along with expanding the filtering capability, we also need to display the filtered data in a way that is useful for the doctor.
 
-{% include figure.html src="wellsheet-wireframes.png"
+{% include figure.html src="wireframes.png"
     caption="These wireframes show my thoughts on reorganizing the IA and navigation to help users get a better picture of the patient's story."
     alt="A series of wireframes showing ways to improve navigation" %}
 
@@ -128,7 +129,7 @@ I believe the most valuable outcome of this work were the synthesized themes and
 
 Within each of these themes, I provided a summary of the problems and solutions I found and several recommendations for how to improve the product and projects that could be added to the future roadmap.
 
-{% include figure.html src="wellsheet-roadmap.png"
+{% include figure.html src="roadmap.png"
     caption="I even organized all this into a sample roadmap that gave examples of how these improvements could be broken down and prioritized to tackle the problems iteratively over time."
     alt="A prioritized roadmap of design and UX improvements" %}
 
@@ -141,7 +142,7 @@ The physical output for this project was broken down into two main deliverables:
 
 **Both these documents delivered similar content, but gave Wellsheet two levels of detail and two formats to review the information.**
 
-{% include figure.html src="wellsheet-preso.png"
+{% include figure.html src="preso.png"
     caption="One of the deliverables was an in-person presentation of all my work and findings so I could walk the Wellsheet team through the process step-by-step."
     alt="An overview of the final presentation showing the project process and my findings" %}
 
