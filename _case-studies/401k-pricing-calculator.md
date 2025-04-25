@@ -4,7 +4,7 @@ noindex: false
 title: "401(k) Pricing Calculator"
 date: 2017-10-03
 featured: true
-image: "/assets/images/feature-pricing.png"
+thumbnail: "feature-pricing.png"
 description: "I built an interactive pricing calculator for Betterment's 401(k) platform that allowed potential customers to both see a transparent price quote and compare our pricing to other providers in the 401(k) space."
 tags: ["Prototyping", "Research", "Visual Design", "Engineering"]
 ---

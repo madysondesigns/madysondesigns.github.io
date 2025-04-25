@@ -4,7 +4,7 @@ noindex: false
 title: "Dashboard for Startup Businesses"
 date: 2018-05-01
 featured: true
-image: "/assets/images/feature-dashboard.png"
+thumbnail: "feature-dashboard.png"
 description: "I built Fundera’s first signed-in home experience for small business owners. This was a long-term, iterative project that will be the foundation for a signed-in experience for all Fundera customers and makes huge progress towards expanding our value as not just a loan marketplace, but a true digital finance partner. "
 tags: ["Product Strategy","Research", "Prototyping", "Visual Design"]
 ---

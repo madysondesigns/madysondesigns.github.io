@@ -4,7 +4,7 @@ noindex: false
 title: "Home Page Testing"
 date: 2017-08-03
 featured: true
-image: "/assets/images/feature-homepage.jpg"
+thumbnail: "feature-homepage.jpg"
 description: "I designed a series of tests on Betterment's home page to increase interest in our new financial expert services and to entice visitors to sign up for these services."
 tags: ["Product Strategy", "Prototyping", "Split Testing", "Visual Design", "Landing Pages"]
 ---
