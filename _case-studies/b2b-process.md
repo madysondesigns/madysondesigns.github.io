@@ -4,7 +4,8 @@ noindex: false
 title: "Product Leadership for B2B Teams"
 date: 2016-09-30
 featured: true
-image: "/assets/images/feature-process.jpg"
+thumbnail: "kickoff.jpg"
+image-folder: "b2b-process"
 description: "I created a product-inspired process to help B2B teams at Betterment collaborate smoothly. My job was to encourage communication and good product strategy in a marketing-heavy role."
 tags: ["Product Management", "Process"]
 ---
@@ -32,7 +33,7 @@ An interesting thing I realized during the research is that one of the pain poin
 
 I decided that a sensible first step of the process would be a kickoff. It made sense for the product owner to be responsible for scheduling the kickoff, as well as coming prepared with a well defined problem to solve, an idea of scope and resources required, and any timing factors.
 
-{% include figure.html src="feature-process.jpg" caption="The kickoff meeting. This is a dramatization." alt="Kickoff meetings" %}
+{% include figure.html src="kickoff.jpg" caption="The kickoff meeting. This is a dramatization." alt="Kickoff meetings" %}
 
 The major point of the kickoff was to get everyone involved in the same room for discussion and to agree on the problem we’re trying to solve. It’s amazing how many misunderstandings you can avoid when everyone is talking to each other in real time. The secondary point of the kickoff was to establish a well-defined problem to solve, not an end result of something to build. Once we talked through all of this, we would all agree on the requirements based on the problem.
 

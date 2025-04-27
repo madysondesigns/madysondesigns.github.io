@@ -4,7 +4,8 @@ noindex: true
 title: Shared Views for Task Collaboration
 date: 2019-04-19
 featured: true
-image: "/assets/images/sv-thumbnail.png"
+thumbnail: "thumbnail.png"
+image-folder: "shared-views"
 description: "My first major project at Flatiron was to improve an existing workflow for viewing and filtering user tasks to give oncology practices a way to improve collaboration and consistency by sharing views across their staff."
 tags: ["Product Strategy", "Research", "Prototyping", "Design Systems"]
 ---
@@ -64,7 +65,7 @@ I didn't consider this an explicit priority, but my hypothesis was that giving u
 * Priority 1: additional functionality that addresses the pain points
 * Priority 2: nice to have features that may be valuable based on customer feedback
 
-{% include figure.html src="sv-prioritized-goals.png"
+{% include figure.html src="prioritized-goals.png"
     caption="I created tables showing our user goals the entire product team could refer back to as we built out the new feature."
     alt="Screenshot showing a list of prioritized user goals" %}
 
@@ -81,7 +82,7 @@ The framework is divided into three panels:
 * The center panel shows the actual worklist items. This is a real time queue of tasks that can be sorted and filtered to segment and prioritize the tasks. A scheduler might be responsible for setting appointments at a particular location.
 * The rightmost panel shows a detailed view of the selected item. This includes the information and actions needed to complete the task. The scheduler might need the patient's contact information and a link to the practice's scheduling system.
 
-{% include figure.html src="sv-inboxes-overview.png"
+{% include figure.html src="inboxes-overview.png"
     caption="At a high level, Group inboxes is a real-time collaboration tool that helps practices manage work by type of task rather than by patient. "
     alt="Diagram showing the three panels that make up Group Inboxes" %}
 
@@ -89,7 +90,7 @@ The framework is divided into three panels:
 
 The existing workflow for saved individual views was fairly simple. Every user had the ability to filter the worklist appearing in the middle panel. The filter could be saved, in which case it would appear in the left panel under the inbox it corresponds to. Any saved views would only apply to the current user. Practices often required users to create a set of views corresponding to the user's task responsibilities, but this was an entirely manual process.
 
-{% include figure.html src="sv-existing-inbox.png"
+{% include figure.html src="existing-inbox.png"
     caption="The existing filter and view system for Group Inboxes. When filtering, users have the option to save the current criteria as a view. The user's saved views appear in the left panel."
     alt="Screenshot of the existing Group Inboxes filter and view system" %}
 
@@ -99,7 +100,7 @@ Given what we learned about the pain points in the existing workflow, my hypothe
 
 #### New workflow 1: Practice admins have the ability to create shared views
 
-{% include figure.html src="sv-full-workflow.gif"
+{% include figure.html src="full-workflow.gif"
     caption="This animation shows how a practice admin would create a new shared view from beginning to end."
     alt="Animation showing how a user would interact with the new workflow" %}
 
@@ -123,7 +124,7 @@ The first Shared Views workflow was an extension of the existing saved filter vi
 
 #### New workflow 2: Practice admins can control who has access to shared views
 
-{% include figure.html src="sv-view-manager.gif"
+{% include figure.html src="view-manager.gif"
     caption="Practice admins have access to additional features that allow them to manage which shared views appear for users on an individual and group level."
     alt="Animation showing the oversight features for practice admins" %}
 
@@ -147,7 +148,7 @@ One interesting outcome of these interviews was that I learned about a few ways 
 * Allowing practices to rotate which staff works on different tasks – the shared view manager would allow admins to easily change which views a user worked from over time
 * Reducing the time practice admins spend when onboarding new staff members who will use the tool – which could be significant at larger practices that require many ways to segment the workload across their team
 
-{% include figure.html src="sv-wireframes.png"
+{% include figure.html src="wireframes.png"
     caption="A high level overview of steps in the new Shared Views feature. We used this prototype to get customer feedback and plan for development."
     alt="Screenshot showing all the screens that will make up the new feature" %}
 
@@ -157,7 +158,7 @@ Once the interviews were complete, I regrouped with the product manager and tech
 
 My goal was to give engineers all the links, annotations, and context they would need so the live system would match the functionality I designed as closely as possible. Since translating designs into code is always an imperfect process, I also made myself available for questions, feedback, and pairing as they needed. Our process also included a design review step once tickets were completed where I could do a final check comparing the finished product to the acceptance criteria.
 
-{% include figure.html src="sv-deliverables.png"
+{% include figure.html src="deliverables.png"
     caption="I like to provide the development team with annotated screenshots that correspond to the tickets they work from."
     alt="Screenshot showing how I annotate screenshots for the dev team" %}
 
@@ -169,7 +170,7 @@ Both these improvements were helpful for existing personal views that aren't sha
 
 #### Iteration 1: Refining the filtering UI
 
-{% include figure.html src="sv-separate-filters.gif"
+{% include figure.html src="separate-filters.gif"
     caption="Our first incremental improvement was to refine the filter UI so some inputs could be accessed independently from the shared views."
     alt="Screenshot showing how list sorting and date range filtering was separated out" %}
 
@@ -181,7 +182,7 @@ I refined the design so that active filters were more clearly visible at all tim
 
 #### Iteration 2: Consolidate the filter and save view UI
 
-{% include figure.html src="sv-alt-save-ui.png"
+{% include figure.html src="alt-save-ui.png"
     caption="The next improvement was to consolidate the saving inputs into the filter window so users can see everything at once."
     alt="Screenshot showing the improved filtering view that includes view saving inputs" %}
 

@@ -148,6 +148,11 @@ blockquote p {
   margin: 0 !important;
 }
 
+.content, .resume-content {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
 .case-disclosure {
   line-height: 1.25;
   font-style: italic;
@@ -295,6 +300,7 @@ section.resume-section {
   #sideNav {
     text-align: center;
     flex-direction: column;
+    flex-wrap: nowrap;
     width: var(--size-menu);
     padding: var(--size-m);
     height: 100vh;
@@ -348,10 +354,6 @@ section.resume-section {
 
   .list-social-icons a .fa-lg {
     font-size: var(--size-m);
-  }
-
-  .resume-content {
-    max-width: 65rem;
   }
 
   #skills li {
@@ -439,11 +441,6 @@ section.resume-section {
 .writing-photo {
   margin-left: var(--size-s);
   margin-top: var(--size-m);
-}
-
-.content {
-  max-width: 60rem;
-  margin: 0 auto;
 }
 
 .content h3,

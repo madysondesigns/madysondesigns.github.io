@@ -8,10 +8,11 @@ Finally, a simple and easy-to-grok portfolio site intended to run on GH pages. N
 
 ## How things work
 Most things are auto-generated based on filenames and paths:
-- `.md` files in root are top-level pages
+- `.md` files in root are content for top-level pages
+- Case studies are a custom collection compiled from `.md` files in `/_case-studies`
 - HTML is rendered from files in `/_layouts` based on frontmatter property
+- Images live in `/assets/images` in subfolder listed in frontmatter
 - Helpers and partial markup live in `/_includes`
-- Case studies are a custom collection with an index page
 
 Run local dev site with `bundle exec jekyll serve --livereload`
 
@@ -39,10 +40,12 @@ Run local dev site with `bundle exec jekyll serve --livereload`
 - [x] redirect url
 - [x] cover for /resume typos
 - [x] add lightbox to enlarge image
+- [x] subfolders for image assets
 - [ ] add more/new case studies
   - [x] wellsheet
+  - [x] group inboxes shared views
   - [ ] carespace labs
-  - [ ] group inboxes shared views?
+  - [ ] carespace appointments
 - [ ] decide what to do with breadcrumbs
 - [ ] add actual content for /resume
 - [ ] tag archive pages?

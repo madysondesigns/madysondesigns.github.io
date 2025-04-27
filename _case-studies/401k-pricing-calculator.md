@@ -4,7 +4,8 @@ noindex: false
 title: "401(k) Pricing Calculator"
 date: 2017-10-03
 featured: true
-image: "/assets/images/feature-pricing.png"
+thumbnail: "thumbnail.png"
+image-folder: "401k-calc"
 description: "I built an interactive pricing calculator for Betterment's 401(k) platform that allowed potential customers to both see a transparent price quote and compare our pricing to other providers in the 401(k) space."
 tags: ["Prototyping", "Research", "Visual Design", "Engineering"]
 ---
@@ -38,11 +39,11 @@ My research also included looking at other providers — our competitors. What I
 ## Exploration
 Given these goals, what should a solution look like? I partnered with the head of the 401(k) business line, marketing, sales, and business relations folks and held ideation sessions.
 
-{% include figure.html src="pricing-post-its.jpg" caption="Ideas generated during our first brainstorming session." alt="Post-it notes with pricing ideas" %}
+{% include figure.html src="brainstorm.jpg" caption="Ideas generated during our first brainstorming session." alt="Post-it notes with pricing ideas" %}
 
 **We did brainstorming and sketching and eventually landed on the idea of a calculator-style structure, where users could customize their fee in an a-la-carte way.**  The calculator would have one section for each type of fee, and at the end of the individual fee sections, there would be an all-in section where the individual fees would add up.
 
-{% include figure.html src="pricing-sketchbook.jpg" caption="Sketches of a few layout ideas, along with a more detailed exploration of the calculator idea." alt="Sketchbook drawings of solutions" %}
+{% include figure.html src="sketchbook.jpg" caption="Sketches of a few layout ideas, along with a more detailed exploration of the calculator idea." alt="Sketchbook drawings of solutions" %}
 
 There were a few benefits to this structure. First of all, I could break up the information into smaller, more easily digestible chunks. Second, this gave me space to include all the information about why we charge the fee, and what exactly is included. Third, it allowed me to add in interactivity that would make the tool fun to use. And lastly, it allowed us to tell a step-by-step story about what goes into 401(k) pricing and to influence how our customers think about it.
 
@@ -57,7 +58,7 @@ I came up with another set of questions I wanted to answer after watching tester
 
 This project gave me an opportunity to try out a new prototyping tool I’d been hoping to play with, FramerJS. Framer allows you to take a Sketch wireframe and layer real interactive content powered by Javascript on top. **The prototype was well received with testers, because the interactivity was real, the numbers were real, and there was no ‘Well, just pretend that other number would change when you click the slider…’** It also was a huge help during the build process (more on that later).
 
-{% include figure.html src="pricing-prototype.gif" caption="Animation to show how the prototype interaction built in Framer worked." alt="Animation of the prototype interaction" %}
+{% include figure.html src="calc-prototype.gif" caption="Animation to show how the prototype interaction built in Framer worked." alt="Animation of the prototype interaction" %}
 
 We got some great feedback from testers. The only structure problem that came up is that users weren’t sure where to start, so we added in instructional copy (which is kind of a cheat, but it worked). We were able to test several different defaults to make sure that we were anchoring with realistic company size data.
 
@@ -69,7 +70,7 @@ I was also responsible for the build of this project. It was a fairly straightfo
 Since I had already built the prototype in Framer, I had already worked out how the slider math should be built in an object-oriented way. I was able to move this over to our Backbone JS framework in a few minutes and have everything just work. It was nice not having to work out the calculations in two different formats.
 
 
-{% include figure.html src="pricing-total.png" caption="The all-in total cost section, designed to be easily sharable." alt="The total price summary" %}
+{% include figure.html src="calc-total.png" caption="The all-in total cost section, designed to be easily sharable." alt="The total price summary" %}
 
 **It was a really nice change to end up with a build that only took a couple of days because we spent the proper time on testing and prototyping.**
 

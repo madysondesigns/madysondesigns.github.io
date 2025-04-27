@@ -5,7 +5,8 @@
   <h3 class="mt-5"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
   <div class="resume-item">
     <div class="case-study-photo mr-4">
-      <img src="{{ page.image }}" style="max-height:150px;max-width:150px;" />
+      {% assign image-src = page.image-folder | append: "/" | default: "" | append: page.thumbnail %}
+      <img src="{{ site.image_path | append: image-src }}" style="max-height:150px;max-width:150px;" />
     </div>
     <div class="case-study-excerpt">
       <p>{{ page.description }}</p>

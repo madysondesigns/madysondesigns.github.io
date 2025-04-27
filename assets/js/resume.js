@@ -25,8 +25,6 @@
     target: '#sideNav'
   });
 
-
-
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })

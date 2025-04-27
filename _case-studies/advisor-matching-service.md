@@ -4,7 +4,8 @@ noindex: false
 title: "Advisor Matching Service"
 date: 2017-09-03
 featured: true
-image: "/assets/images/feature-match.jpg"
+thumbnail: "thumbnail.jpg"
+image-folder: "advisor-match"
 description: "I created a system of workflows to match up Betterment's individual customers with investment advisor partners. This project spanned the end-to-end experience including customer- and advisor-facing tools and all commmunication touchpoints."
 tags: ["Prototyping", "Research", "User Journeys", "Communications"]
 ---
@@ -28,7 +29,7 @@ I realized this feature would need to bring as much human touch as possible to t
 
 The first step here was to look at the existing state of the world in advisor onboarding. I mapped out all the steps that the advisor and client go through to sign up which gave me a good idea of where this flow would fit in most efficiently.
 
-{% include figure.html src="advisor-matching-whiteboard.jpg" caption="A rough map of the steps for signup on both the customer and advisor sides." alt="Whiteboard sketch of the different signup steps" %}
+{% include figure.html src="whiteboard.jpg" caption="A rough map of the steps for signup on both the customer and advisor sides." alt="Whiteboard sketch of the different signup steps" %}
 
 Once I had a plan for where this would fit in, I spoke with the business development team and collected a list of their requirements.
 
@@ -41,25 +42,25 @@ Once I had a plan for where this would fit in, I spoke with the business develop
 ## Exploration
 I came back to the larger team with the list of goals, and once everyone was on board, I started mapping out the steps on both the advisor and customer side within the existing systems. As it turns out, there is a lot of back and forth happening (yikes!).
 
-{% include figure.html src="/match-flow-map.png" caption="Process flow map for both customer and advisor. The highlighted steps are the new flows I was inserting." alt="Process flow map" %}
+{% include figure.html src="match-flow-map.png" caption="Process flow map for both customer and advisor. The highlighted steps are the new flows I was inserting." alt="Process flow map" %}
 
 For advisors, the most important thing was making that list of clients easy to find and easy to review. One thing we know about advisors on our platform is that they already know how to invite a customer. There is an ‘Invite Client’ button on their dashboard that gives options to bring on a new client. Since this is familiar, I dropped in a step here that would also give the option to add a referred client.
 
-{% include figure.html src="/advisor-flow.png" caption="An overview of the whole process on the advisor side." alt="The entire advisor match flow" %}
+{% include figure.html src="advisor-flow.png" caption="An overview of the whole process on the advisor side." alt="The entire advisor match flow" %}
 
 Next, I created a table that would list out matched customer information with an option to send out agreements (as well as delete the client if the match wasn’t appropriate).
 
-{% include figure.html src="/matched-client-list.png" caption="The client match table." alt="List view of matched clients" %}
+{% include figure.html src="matched-client-list.png" caption="The client match table." alt="List view of matched clients" %}
 
 One thing I had to consider when thinking about how the advisor would find these clients was customer privacy. Initially, I thought providing a search feature to advisors would be easy to use, but we realized that it could potentially expose personal information for non-advisor customers. So the second choice was to restrict it to a list of only the customers who were matched to the advisor. The experience wasn’t quite as good, but customer privacy won out in this case.
 
 For customers, I didn’t have to worry about a central location since it was a one-time request pushed out from the advisor. The customer would receive an email that would take them directly to the partnership flow where they could review and accept the agreements.
 
-{% include figure.html src="/customer-flow.png" caption="An overview of the whole flow that a customer goes through." alt="The entire client flow" %}
+{% include figure.html src="customer-flow.png" caption="An overview of the whole flow that a customer goes through." alt="The entire client flow" %}
 
 **The most important thing that I wanted to emphasize to the customer is that they now have a person that they can form a relationship with. So I used the advisor’s name and photo wherever I could to underline this fact.**
 
-{% include figure.html src="/Advisor-email.png" caption="The customer first receives an email which was designed to look like a personal note from the advisor that was matched to them." alt="The first email a customer receives from their new advisor" %}
+{% include figure.html src="advisor-email.png" caption="The customer first receives an email which was designed to look like a personal note from the advisor that was matched to them." alt="The first email a customer receives from their new advisor" %}
 
 ## Validation
 Testing for this flow was pretty simple — each type of user had a pretty linear path, so I did internal testing with some of our in-house advisors and other team members who were not involved in the project.
