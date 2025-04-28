@@ -5,19 +5,21 @@ title: Name in Title Case
 date: 2025-01-01
 featured: true
 thumbnail: "thumbnail.png"
-image-folder: ""
+image-folder: "foo"
 description: "TL;DR blurb here"
 tags: ["foo"]
 ---
 
-**delete this content ⬇️**
 ## Case study content
 
-Add all the details about a project to create a case study
+Add all the details about a project to create a case study.
 
-### Note
-
-Description blurb in frontmatter will show up as a TL;DR section at the top of the page
+Style guide:
+* Description blurb in frontmatter will show up as a TL;DR section at the top of the page
+* Use `h2` for section headers, see outline below
+* Use `h3` and `h4` for content subheaders as needed
+* Use `h5` to call out short, important blocks of content
+* Use `bold` to highlight text or lead in to lists
 
 Image helper:
 ```
@@ -27,7 +29,6 @@ Image helper:
 ```
 
 Sample outline:
-**delete this content ⬇⬆️**
 
 ## The Problem
 
