@@ -12,15 +12,15 @@ tags: ["Product Strategy", "Research", "Interaction Design", "Prototyping", "Des
 
 ## The Problem
 
-CareSpace is a patient portal that gives patients secure, online access to their health information that is managed through Flatiron Health's electronic health record (EHR) platform. As the lead designer for the Patient Experience team, I worked on a huge project over two years to make improvements to the lab results experience both in the patient portal and in the EHR.
+CareSpace is a patient portal that gives patients secure, online access to their health information that is managed through Flatiron Health's electronic health record (EHR) platform. As the lead designer for the Patient Experience team, I worked on a huge project over two years to make improvements to the lab results experience both in the CareSpace portal and in the EHR.
 
-This project started in response to direct feedback in the form of multiple feature requests – oncologists told us they needed a way to withhold lab results from being automatically released to the patient portal. My PM had previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
+This project started in response to direct feedback in the form of multiple feature requests – oncologists told us they needed a way to withhold lab results from being automatically released to CareSpace. My PM previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
 
 I was especially curious why this was such a frequently mentioned feature, and as we dug in, we uncovered several key problems that went beyond just withholding results – for both oncologists and patients.
-1. The patient portal itself doesn’t do a great job of displaying lab data, making it hard for patients to tell whether their results are within a normal range or if something requires further attention.
-2. Results appear in multiple places in the portal and don’t always include the full set of data from the patient’s health record, creating even more confusion.
+1. CareSpace itself doesn’t do a great job of displaying lab data, making it hard for patients to tell whether their results are within a normal range or if something requires further attention.
+2. Results appear in multiple places in CareSpace and don’t always include the full set of data from the patient’s health record, creating even more confusion.
 3. When patients can't find or understand their labs, their only option is to call their provider’s office just to make sense of what they’re looking at.
-4. Clinicians often have no visibility into what a patient can or can’t see in the portal, making it difficult to anticipate patient concerns.
+4. Clinicians often have no visibility into what a patient can or can’t see in CareSpace, making it difficult to anticipate patient concerns.
 5. Beyond all these system shortcomings, there are still legitimate clinical reasons why a provider might want to hold back results until they can walk a patient through them – sometimes, difficult news is best delivered in person.
 
 Taken together, these issues made it clear that oncologists weren’t just asking for a simple feature and this project wasn’t just about restricting lab release. It was really about giving patients the tools and information to understand their health data, giving providers better control over patient communication, and improving the overall experience for both doctors and patients.
@@ -43,15 +43,15 @@ With this new understanding of the problem, we anchored our work around four key
 
 First, **clarity**: Lab results should be easy to understand without causing unnecessary stress. Patients should know whether a result is clinically significant and have the right context to understand how it relates to their diagnosis. Second, **consistency**: All lab results should be available in one place, regardless of their source or format. Whether a result comes from a structured data feed or a scanned PDF, patients shouldn’t have to hunt for their information.
 
-These first two principles became **Phase 1**: focused entirely on the patient experience, improving the portal’s UX so that lab results were easier to understand and access.
+These first two principles became **Phase 1**: focused entirely on the patient experience, improving the CareSpace UX so that lab results were easier to understand and access.
 
-For practices, **transparency** was critical. Providers and staff needed visibility into what patients could see in the portal, ensuring the EHR and patient portal remained aligned. If a result was withheld, the system should make it clear why. Finally, **control**: Oncologists needed the ability to withhold sensitive results on a case-by-case basis, ensuring that regulatory requirements didn’t override their clinical judgment when it wasn’t in the patient’s best interest. These principles kept us focused on building a system that was not only functional but also intuitive, trustworthy, and aligned with real-world clinical workflows.
+For practices, **transparency** was critical. Providers and staff needed visibility into what patients could see in CareSpace, ensuring the EHR and patient portal remained aligned. If a result was withheld, the system should make it clear why. Finally, **control**: Oncologists needed the ability to withhold sensitive results on a case-by-case basis, ensuring that regulatory requirements didn’t override their clinical judgment when it wasn’t in the patient’s best interest. These principles kept us focused on building a system that was not only functional but also intuitive, trustworthy, and aligned with real-world clinical workflows.
 
 The second two principles became **Phase 2**: iterating on existing oncologist workflows to give providers better visibility and decision-making power.
 
 Breaking the work into two phases helped us manage what was quickly becoming a massive project, allowing us to ship in smaller, incremental slices and develop more efficiently without overwhelming either patients or providers with too many changes at once.
 
-##### This case study covers the design process for Phase 1 where we focused on the patient experience, with the goal to make labs consistently available and clearly digestible in the patient portal.
+##### This case study covers the design process for Phase 1 where we focused on the patient experience, with the goal to make labs consistently available and clearly digestible in CareSpace.
 
 I worked closely with a cross-functional team – including a PM, tech lead, engineers, and a clinical expert. My role was to bridge the gap between user needs and execution – building a deep understanding of the existing platform, past research, and user feedback to define the problem. I facilitated brainstorming, drove decision-making, and ensured alignment on clinical and technical constraints. I designed all workflows and UI/UX for an intuitive experience for both providers and patients. Throughout development, I collaborated with engineers to refine interactions, troubleshoot edge cases, and QA the final product to ensure it worked as intended.
 
@@ -82,7 +82,7 @@ No matter the role, the reality was the same: they’re busy. Seeing dozens of p
 
 ## Research
 
-I took two main approaches to learning more about what patients might need from a labs experience in the portal: **user research** and **system research**.
+I took two main approaches to learning more about what patients might need from a labs experience in CareSpace: **user research** and **system research**.
 
 One unique advantage of our user research process is our direct access to internal experts – oncologists, nurses, and other medical professionals – whose insights from the front lines of patient care help inform our approach. Before we even engage external users, we can test rough hypotheses, gather critical context, and refine our understanding of the problems we’re solving. These experts help validate assumptions, uncover nuances we might not have considered, and give us an initial signal on whether we’re headed in the right direction.
 
@@ -100,7 +100,7 @@ One thing we heard often in our internal research was that sometimes labs were "
 
 ##### But the real "a-ha!" moment came when we realized that it’s not the lab data itself that’s sensitive – it’s whether the patient is sensitive or not.
 
-For instance, two patients receiving the same result from the same test might have very different reactions. An experienced patient may look at the result and know it’s nothing to worry about, while someone newly diagnosed might immediately feel anxious. This insight gave even more weight to our hypothesis that patients who are more knowledgeable tend to be less sensitive to lab results. It also highlighted a major opportunity for us to improve the patient portal so more patients could feel informed, empowered, and less anxious about their results.
+For instance, two patients receiving the same result from the same test might have very different reactions. An experienced patient may look at the result and know it’s nothing to worry about, while someone newly diagnosed might immediately feel anxious. This insight gave even more weight to our hypothesis that patients who are more knowledgeable tend to be less sensitive to lab results. It also highlighted a major opportunity for us to improve CareSpace so more patients could feel informed, empowered, and less anxious about their results.
 
 Once we realized that sensitivity is more about the patient than the specific lab data, I expanded our personas with detailed scenarios to capture different levels of sensitivity and experience.
 
@@ -111,7 +111,7 @@ I outlined key details about the patient – their diagnosis, treatment stage, f
 * **The patient about to start chemo tomorrow:** Needs to know if their lab results will impact their treatment schedule, making timing and clarity critical.
 * **The patient receiving an intimate test result (e.g., HIV status):** This isn’t directly related to their cancer, but it’s still deeply personal and requires thoughtful handling.
 
-Thinking through these scenarios helped me prioritize how lab information should be presented in the portal – making sure that all patients, regardless of their experience level or emotional state, receive their results with the clarity, confidence, and compassion they deserve.
+Thinking through these scenarios helped me prioritize how lab information should be presented in CareSpace – making sure that all patients, regardless of their experience level or emotional state, receive their results with the clarity, confidence, and compassion they deserve.
 
 We also used these scenarios in Phase 2 of the overall labs project to gather more feedback from practices, giving us a better sense of how providers approach lab sensitivity and how our designs would fit into their daily workflows.
 
@@ -119,13 +119,13 @@ We also used these scenarios in Phase 2 of the overall labs project to gather mo
 
 After user research, the next step was auditing existing systems – both to understand what we currently had and to define what we wanted. This meant taking a ton of screenshots, mapping out workflows, and documenting every friction point along the way.
 
-Again, including practice-side workflows was important – I wanted to ensure consistency between what patients see in the portal and what providers see in the EHR. This would help both groups communicate more effectively and avoid confusion when discussing results.
+Again, including practice-side workflows was important – I wanted to ensure consistency between what patients see in CareSpace and what providers see in the EHR. This would help both groups communicate more effectively and avoid confusion when discussing results.
 
 I also broadened my research beyond our own system, looking at other apps for inspiration. Some were in the health tech space, like **OneMedical, Apple Health, MyChart,** and **Runkeeper,** while others were strong examples of general data visualization, like **Betterment, Google Analytics, Apple Stocks,** and **AccuWeather.**
 
 I didn’t do this in a vacuum, either – I encouraged the team to contribute inspiration, which helped me see a more well-rounded picture of what “good” looks like.
 
-From these audits, I built a comprehensive picture of the pain points and shortcomings we needed to address, along with a clear vision of how the portal could evolve into a system that presents complex lab data in a way that’s both clear and easy to understand.
+From these audits, I built a comprehensive picture of the pain points and shortcomings we needed to address, along with a clear vision of how CareSpace could evolve into a system that presents complex lab data in a way that’s both clear and easy to understand.
 
 ### Insights from data analysis
 
@@ -158,15 +158,15 @@ alt="A few diagrams of different ways lab data surfaces for patients or practice
 
 ## Exploration
 
-After all that research, I felt confident in our hypothesis that if the portal could present lab data more clearly – making recent results easy to locate and trends easy to understand – it would reduce unnecessary patient calls and, in turn, reduce the need for oncologists to withhold results just to prevent confusion.
+After all that research, I felt confident in our hypothesis that if CareSpace could present lab data more clearly – making recent results easy to locate and trends easy to understand – it would reduce unnecessary patient calls and, in turn, reduce the need for oncologists to withhold results just to prevent confusion.
 
 Once I simplified everything, I realized there was a core user need that the new labs experience needed to provide.
 
-**When patients log into the portal to check their lab results, they’re usually trying to answer one of two questions:**
+**When patients log into CareSpace to check their lab results, they’re usually trying to answer one of two questions:**
 1. Where are my latest lab results?
 2. How am I doing based on trends over time?
 
-### The current patient portal experience
+### The current CareSpace experience
 
 The patient portal I was designing for was built on top of a completely new platform – a huge improvement over the legacy tool it replaced, which was so outdated and unmaintainable that the only viable option was to rebuild from scratch.
 
@@ -176,13 +176,13 @@ alt="Screenshot of the previous experience with a few problem areas highlighted"
 
 The new portal was designed as a modern, scalable web app, but at launch it only included the minimum functionality required to meet regulatory needs. That meant patients technically had access to their data, but not always in a usable form. Some information was surfaced through a very basic interface, but anything we hadn’t explicitly built a user experience for was bundled into a raw CCDA document – essentially a machine-readable XML file that wasn’t meant for human eyes.
 
-For lab results, this meant patients had a fragmented experience: some data appeared in the portal’s UI, while the rest was buried in the CCDA, making it difficult (if not impossible) for patients to get a complete picture of their health without assistance.
+For lab results, this meant patients had a fragmented experience: some data appeared in the CareSpace UI, while the rest was buried in the CCDA, making it difficult (if not impossible) for patients to get a complete picture of their health without assistance.
 
 ##### The existing portal didn’t address either of the patient's questions well – results were hard to find, inconsistently displayed, and lacked clear historical context. As a result, many patients ended up calling their doctor’s office for clarification.
 
 ### The new experience: CareSpace Labs 2.0
 
-Based on these two main patient needs, I set out to define what exactly patients want to know when viewing lab results in the portal. Over time, I’ve developed a mental model that distinguishes between **dashboard** workflows – where users need quick, high-level insights – and **deep dive** workflows – where they need to explore and analyze details. This framework was a natural fit for how patients engage with lab results.
+Based on these two main patient needs, I set out to define what exactly patients want to know when viewing lab results in CareSpace. Over time, I’ve developed a mental model that distinguishes between **dashboard** workflows – where users need quick, high-level insights – and **deep dive** workflows – where they need to explore and analyze details. This framework was a natural fit for how patients engage with lab results.
 
 * When a patient wants to quickly check **“Where are my latest lab results?”** that’s a dashboard-level question, meaning the answer should be immediately accessible – ideally surfaced on the home screen as soon as they log in. The previous portal didn't surface this information at all.
 * When a patient is wondering **“How am I doing based on trends over time?”** they need more than a snapshot; they need to explore patterns in their data. This deeper level of engagement is where the previous portal experience fell short, so I focused on designing a completely new lab viewing experience that made it easy for patients to track changes, understand trends, and get a more holistic view of their health.
@@ -191,13 +191,13 @@ These two workflows are distinct but interconnected – patients might start at 
 
 #### Designing the dashboard view
 
-My first design goal was to update the portal home page with a dashboard view of lab reports, making it easy for patients to find their most recent results at a glance. I wanted to answer the **“Where are my latest lab results?”** question instantly while also giving patients enough recent history to provide context.
+My first design goal was to update the CareSpace home page with a dashboard view of lab reports, making it easy for patients to find their most recent results at a glance. I wanted to answer the **“Where are my latest lab results?”** question instantly while also giving patients enough recent history to provide context.
 
 {% include figure.html src="dashboard.png"
 caption="The dashboard displays up to three lab reports, which I determined to be enough to offer a quick snapshot without overwhelming the user."
 alt="Screenshot showing the redesigned dashboard view for labs" %}
 
- Each card highlights the essentials: when the lab work happened and what panels were performed, with a link to dive deeper into full results. This approach allows patients to quickly see when their last tests were and whether they need to take a deeper look. I also designed the dashboard using small, reusable components, ensuring that the structure could scale as we refined the portal experience over time.
+ Each card highlights the essentials: when the lab work happened and what panels were performed, with a link to dive deeper into full results. This approach allows patients to quickly see when their last tests were and whether they need to take a deeper look. I also designed the dashboard using small, reusable components, ensuring that the structure could scale as we refined the CareSpace experience over time.
 
 #### Designing the deep dive experience
 
@@ -225,7 +225,7 @@ Patients can hover over any data point to see exact results, while the correspon
 
 ##### Designing with clarity, choice, and empathy means giving patients more than just numbers on a screen – it means helping them feel informed, prepared, and a little more in control of their care journey.
 
-One of the core requirements was making the patient portal fully functional on mobile – no standalone app, just a responsive web experience across all screen sizes.
+One of the core requirements was making CareSpace fully functional on mobile – no standalone app, just a responsive web experience across all screen sizes.
 
 {% include figure.html src="mobile-views.png"
 caption="Making the labs experience accessible meant designing across screen sizes and devices."
@@ -320,7 +320,7 @@ To manage complexity and gather early feedback, we broke this phase into smaller
 
 We selected a few practices as beta testers and rolled out each slice as it was ready, giving us a steady feedback loop while development continued. The remaining features were shipped as fast follows – released incrementally until the full Phase 1 experience was stable and ready for general release.
 
-Since the portal had a minimal UI, I leaned heavily on our design system to construct more complex layouts from smaller components. I created annotated component charts for each new interface, detailing how to combine existing parts using our molecule/organism structure – and where we’d need something new. I organized all these components by release slices to help the team prioritize work.
+Since CareSpace had a minimal UI, I leaned heavily on our design system to construct more complex layouts from smaller components. I created annotated component charts for each new interface, detailing how to combine existing parts using our molecule/organism structure – and where we’d need something new. I organized all these components by release slices to help the team prioritize work.
 
 I documented every state (hover, active, disabled) and included examples for handling edge cases like long test names or missing data. As new components emerged, I collaborated with the design team to flag reusable patterns, ensuring we weren’t just building for one product but strengthening the system as a whole.
 
@@ -337,7 +337,7 @@ As we were building, I partnered with my PM to align on how we’d define succes
 **We landed on two key success metrics:**
 * **Streamline practice operations / reduce phone calls to practices**
   * Practices report fewer inbound calls from patients looking for lab results
-  * We see an increase in patient sign-ups for the portal
+  * We see an increase in patient sign-ups for CareSpace
 * **Improve CareSpace utility & usability for patients**
   * Patients can easily find lab results that answer their questions, making them more informed
   * Patients have more visibility into what lab results are available and when
@@ -348,8 +348,8 @@ One of our main feedback channels was direct check-ins with practices. Larger si
 
 As we shipped each slice of work, we asked about our success metrics to make sure we stayed on track – changes in call volume related to lab results, and any patient feedback on the new experience.
 
-We paired this with data from our internal engagement tool, which tracked how users moved through the portal to measure more concrete data points.
-* How many patients log in to the portal within 4 business days of lab work
+We paired this with data from our internal engagement tool, which tracked how users moved through CareSpace to measure more concrete data points.
+* How many patients log in to CareSpace within 4 business days of lab work
 * How many patients click on the lab reports from the home page
 * How often patients open multiple reports
 * How often patients click through to the trend view
@@ -412,7 +412,7 @@ This project was the epitome of “scope creep,” but I believe it was necessar
 
 ##### It remains one of the things I’m most proud to have worked on in my career – not just because of the craft, but because of the difference it made.
 
-Early on, we chose to focus on improving patient comprehension – making lab data easier to find, clearer to read, and more contextualized. Our goal was to reduce the emotional burden often labelled as “sensitivity.”
+Early on, we chose to focus on improving patient comprehension – making CareSpace lab data easier to find, clearer to read, and more contextualized. Our goal was to reduce the emotional burden often labelled as “sensitivity.”
 
 **I wouldn't have gotten to that decision without the key insights that surfaced from our early research:**
 * **Sensitivity is subjective:** There's no universal definition of what makes a result “sensitive” – any result can feel that way depending on the patient.
@@ -420,6 +420,6 @@ Early on, we chose to focus on improving patient comprehension – making lab da
 
 I also deepened my understanding of how differently patients and providers absorb information. The EHR ecosystem is built for providers, but not always for patients. A key example was how lab reports were grouped. Multiple reports generated on the same day often confused patients. While this made sense to practices, we chose to group results by the date they were drawn – because patients simply need to know what their labs showed during their last visit, not the technical constraints behind them.
 
-The biggest takeaway was that what users ask for isn’t always what they actually need. Oncologists initially requested the ability to withhold lab results, but instead of just building a gatekeeping mechanism, we took a step back. We hypothesized that confusion, not the results themselves, was the real issue. If we could improve how lab data was presented, maybe practices wouldn’t feel the need to withhold it in the first place.
+The biggest takeaway was that what users ask for isn’t always what they actually need. Oncologists initially requested the ability to withhold lab results from CareSpace, but instead of just building a gatekeeping mechanism, we took a step back. We hypothesized that confusion, not the results themselves, was the real issue. If we could improve how lab data was presented to patients, maybe practices wouldn’t feel the need to withhold it in the first place.
 
 It was a more complex path, but one that led to better outcomes. We ended up with a solution that gave practices peace of mind while empowering patients with clearer, more contextualized information. I’m proud we took the time to dig beneath the ask and solve the problem that truly mattered.
