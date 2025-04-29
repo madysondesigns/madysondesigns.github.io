@@ -6,7 +6,7 @@ date: 2019-04-15
 featured: true
 thumbnail: "thumbnail.png"
 image-folder: "carespace-labs"
-description: "One of my more complex projects was a complete redesign of the lab results experience in Flatiron's patient portal, CareSpace. This was one phase of a long-running project where I was focused on giving patients an intuitive, easy to understand picture of how lab results fit into their cancer care journey."
+description: "One of my more complex projects was a complete redesign of the lab results experience in Flatiron's patient portal, CareSpace. This was the first phase of a long-running project where I was focused on giving patients an intuitive, easy to understand picture of how lab results fit into their cancer care journey."
 tags: ["Product Strategy", "Research", "Interaction Design", "Prototyping", "Design Systems", "Visual Design"]
 ---
 
@@ -51,7 +51,7 @@ The second two principles became **Phase 2**: iterating on existing oncologist w
 
 Breaking the work into two phases helped us manage what was quickly becoming a massive project, allowing us to ship in smaller, incremental slices and develop more efficiently without overwhelming either patients or providers with too many changes at once.
 
-##### This case study covers the design process for Phase 1 where we focused on the patient experience, with the goal to make labs consistently available and clearly digestible in CareSpace.
+#### This case study covers the design process for Phase 1 where we focused on the patient experience, with the goal to make labs consistently available and clearly digestible in CareSpace.
 
 I worked closely with a cross-functional team – including a PM, tech lead, engineers, and a clinical expert. My role was to bridge the gap between user needs and execution – building a deep understanding of the existing platform, past research, and user feedback to define the problem. I facilitated brainstorming, drove decision-making, and ensured alignment on clinical and technical constraints. I designed all workflows and UI/UX for an intuitive experience for both providers and patients. Throughout development, I collaborated with engineers to refine interactions, troubleshoot edge cases, and QA the final product to ensure it worked as intended.
 
@@ -285,7 +285,7 @@ Once all five usability sessions were complete, I began synthesizing what we’d
   * 5/5 patients were able to describe the tests performed
   * 5/5 patients could identify results outside of the normal range
 * **From the lab report view, can patients understand the impact of lab results on their life?**
-  * 5/5 patients recognised low WBC and how to act based on MD instructions
+  * 5/5 patients recognized low WBC and how to act based on MD instructions
   * Interestingly, 2/5 mentioned they might ignore those instructions and make their own decision
 * **From the lab report view, can patients find the action to show them trends?**
   * 4/5 patients confidently identified the trend icon
@@ -360,7 +360,7 @@ Together, these qualitative and quantitative inputs gave us a well-rounded view 
 
 In addition to the planned slices of work, we made several iterative improvements based on feedback from the rollout. We focused on quick wins that enhanced clarity, usability, and overall polish – small changes that added up to a more refined experience.
 
-### Iteration 1: Language That Resonates
+### Iteration 1: Language that resonates
 
 After usability testing, something felt off. Patients could navigate the trend view just fine, but the word “trend” didn’t quite reflect how they talked about their results. It felt clinical – not personal. In a quick wordsmithing session with my PM and our clinical expert, we explored alternatives. When “lab history” came up, it clicked. It still described the functionality, but with a tone that felt more aligned with patients’ mental models and lived experience.
 
