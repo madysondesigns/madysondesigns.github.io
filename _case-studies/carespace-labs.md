@@ -6,7 +6,7 @@ date: 2019-04-15
 featured: true
 thumbnail: "thumbnail.png"
 image-folder: "carespace-labs"
-description: TBD
+description: "One of my more complex projects was a complete redesign of the lab results experience in Flatiron's patient portal, CareSpace. This was one phase of a long-running project where I was focused on giving patients an intuitive, easy to understand picture of how lab results fit into their cancer care journey."
 tags: ["Product Strategy", "Research", "Interaction Design", "Prototyping", "Design Systems", "Visual Design"]
 ---
 
@@ -16,7 +16,7 @@ CareSpace is a patient portal that gives patients secure, online access to their
 
 This project started in response to direct feedback in the form of multiple feature requests – oncologists told us they needed a way to withhold lab results from being automatically released to the patient portal. My PM had previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
 
-**I was especially curious why this was such a frequently mentioned feature, and as we dug in, we uncovered several key problems that went beyond just withholding results – for both oncologists and patients.**
+I was especially curious why this was such a frequently mentioned feature, and as we dug in, we uncovered several key problems that went beyond just withholding results – for both oncologists and patients.
 1. The patient portal itself doesn’t do a great job of displaying lab data, making it hard for patients to tell whether their results are within a normal range or if something requires further attention.
 2. Results appear in multiple places in the portal and don’t always include the full set of data from the patient’s health record, creating even more confusion.
 3. When patients can't find or understand their labs, their only option is to call their provider’s office just to make sense of what they’re looking at.
@@ -104,7 +104,7 @@ For instance, two patients receiving the same result from the same test might ha
 
 Once we realized that sensitivity is more about the patient than the specific lab data, I expanded our personas with detailed scenarios to capture different levels of sensitivity and experience.
 
-**I outlined key details about the patient – their diagnosis, treatment stage, familiarity with lab results, and the specific lab data they might encounter:**
+I outlined key details about the patient – their diagnosis, treatment stage, familiarity with lab results, and the specific lab data they might encounter.
 * **The hyper-anxious patient:** Sensitive to any shifting labs, even if the changes aren’t clinically significant. Any fluctuation causes stress.
 * **The recently diagnosed “novice” patient:** New to their condition and overwhelmed with information. They don’t yet know what’s normal or what to focus on.
 * **The late-stage or maintenance “experienced” patient:** Has been managing their condition for a long time, understands trends, and knows how to identify when something is actually concerning.
@@ -132,23 +132,23 @@ From these audits, I built a comprehensive picture of the pain points and shortc
 To build a solid foundation, I worked with engineers to analyze actual lab data. This data analysis informed both my workflow design and technical system design. It gave the whole team a shared vocabulary, making discussions more efficient.
 
 **We needed to understand two key things:**
-* **What do labs look like?** Defining the structure of lab data was crucial:
-  * **Test:** A single data point, including:
-    * Name (e.g., WBC)
-    * Date(s) (e.g., specimen collection or visit date)
-    * Measured value (e.g., 7.5)
-    * Normal range (e.g., 4.5–11)
-    * Unit of measurement (e.g., 10^9/L)
-    * Interpretation keyword (e.g., "normal")
-    * Comments (e.g., lab facility notes)
-  * **Panel:** A group of tests (e.g., CBC)
-  * **Report:** A collection of panels performed together, stored as discrete data or a PDF
-* **How much lab data is there?** Understanding scale helped us define information hierarchy:
-  * Lab dates per patient over different time frames
-  * Reports per date
-  * Panels per report
-  * Tests per panel
-  * Character length for various lab values
+1. **What do labs look like?** Defining the structure of lab data was crucial:
+   1. **Test:** A single data point, including:
+      * Name (e.g., WBC)
+      * Date(s) (e.g., specimen collection or visit date)
+      * Measured value (e.g., 7.5)
+      * Normal range (e.g., 4.5–11)
+      * Unit of measurement (e.g., 10^9/L)
+      * Interpretation keyword (e.g., "normal")
+      * Comments (e.g., lab facility notes)
+   1. **Panel:** A group of tests (e.g., CBC)
+   1. **Report:** A collection of panels performed together, stored as discrete data or a PDF
+1. **How much lab data is there?** Understanding scale helped us define information hierarchy:
+   1. Lab dates per patient over different time frames
+   1. Reports per date
+   1. Panels per report
+   1. Tests per panel
+   1. Character length for various lab values
 
  These insights were invaluable when making decisions – like knowing the 95th percentile for how often a patient gets lab work in six months or the 99th percentile for comment length. It helped me allocate the right amount of screen space for different information and helped engineers optimize system performance.
 
@@ -178,7 +178,7 @@ The new portal was designed as a modern, scalable web app, but at launch it only
 
 For lab results, this meant patients had a fragmented experience: some data appeared in the portal’s UI, while the rest was buried in the CCDA, making it difficult (if not impossible) for patients to get a complete picture of their health without assistance.
 
-**The existing portal didn’t address either of the patient's questions well – results were hard to find, inconsistently displayed, and lacked clear historical context. As a result, many patients ended up calling their doctor’s office for clarification.**
+##### The existing portal didn’t address either of the patient's questions well – results were hard to find, inconsistently displayed, and lacked clear historical context. As a result, many patients ended up calling their doctor’s office for clarification.
 
 ### The new experience: CareSpace Labs 2.0
 
@@ -191,7 +191,7 @@ These two workflows are distinct but interconnected – patients might start at 
 
 #### Designing the dashboard view
 
-My first design goal was to update the portal home page with a dashboard view of lab reports, making it easy for patients to find their most recent results at a glance. I wanted to answer the **“where are my labs?”** question instantly while also giving patients enough recent history to provide context.
+My first design goal was to update the portal home page with a dashboard view of lab reports, making it easy for patients to find their most recent results at a glance. I wanted to answer the **“Where are my latest lab results?”** question instantly while also giving patients enough recent history to provide context.
 
 {% include figure.html src="dashboard.png"
 caption="The dashboard displays up to three lab reports, which I determined to be enough to offer a quick snapshot without overwhelming the user."
@@ -245,7 +245,7 @@ To keep everything in one place, I designed an inline PDF viewer inside the repo
 
 A key goal for both the patient-facing portal and future practice-side work was to make numerical lab values and ranges easy to understand while maintaining a consistent way to display result interpretations.
 
-**To achieve this, I designed a set of components for our design system that would standardize lab result presentation across the platform.**
+To achieve this, I designed a set of components for our design system that would standardize lab result presentation across the platform.
 * **Numbers display in a monospace font** for better readability and alignment.
 * **Measured value is the largest and boldest element** to make it the focal point.
 * **Reference range is slightly smaller and lighter** in visual weight to provide context without overwhelming the primary result.
@@ -262,7 +262,7 @@ Because we were operating scrappy, I added exploratory questions to learn more a
 
 I put together a list of goals for research sessions so we as a team could align on what we wanted to learn and validate. I also created a set of screening questions to ensure participants were cancer patients, represented diverse demographics, and – importantly – came from practices we served whenever possible (see research constraints mentioned earlier).
 
-**We conducted five total sessions, each lasting an hour. I structured them into two parts:**
+We conducted five total sessions, each lasting an hour. I structured them into two parts:
 * **The first half focused on persona-building:** A warm-up conversation, with questions to understand their broader patient journey as well as how and why they use lab results.
 * **The second half was task analysis:** A task-based usability test, where I shared my screen and let them navigate the prototype on their own while guiding them through specific tasks.
 
@@ -299,7 +299,7 @@ One task turned out to be a complete miss: the trend graph. I’d designed it to
 
 But patients expected time to move forward, not backward. Flipping the graph to show **oldest to newest** instantly made it more intuitive. Honestly, I love being wrong when it leads to a better design – moments like this are where the real learning happens.
 
-**Beyond the task analysis, we also gathered some rich qualitative insights that deepened our understanding of how patients experience their lab results and health journey:**
+Beyond the task analysis, we also gathered some rich qualitative insights that deepened our understanding of how patients experience their lab results and health journey.
 * Patients have incredibly strong date memory – they remember the exact date of diagnosis, treatment starts, and other milestones
 * They expressed a desire for more context around lab trends – could we overlay treatment dates or procedures to create a more cohesive story?
 * When I asked about any happy moments in their journey, every participant lit up. Common responses included:
@@ -313,7 +313,7 @@ That said, we met the goals we set out to validate and came away with confidence
 
 ## Implementation
 
-**To manage complexity and gather early feedback, we broke this phase into smaller, shippable slices:**
+To manage complexity and gather early feedback, we broke this phase into smaller, shippable slices.
 * The first release included the updated dashboard view, the new lab report view organized by date, and the trend view in table format only.
 * The next slice layered in the data visualization – giving each lab type its own graph along with time frame navigation controls.
 * The final slice focused on adding patient education content to the trend view, helping patients understand the “why” behind each test and result.
@@ -348,7 +348,7 @@ One of our main feedback channels was direct check-ins with practices. Larger si
 
 As we shipped each slice of work, we asked about our success metrics to make sure we stayed on track – changes in call volume related to lab results, and any patient feedback on the new experience.
 
-**We paired this with data from our internal engagement tool, which tracked how users moved through the portal to measure more concrete data points like:**
+We paired this with data from our internal engagement tool, which tracked how users moved through the portal to measure more concrete data points.
 * How many patients log in to the portal within 4 business days of lab work
 * How many patients click on the lab reports from the home page
 * How often patients open multiple reports
@@ -370,7 +370,7 @@ We made the call to update the label across the product. The engineering change 
 
 One of the questions that came up was deceptively simple: _What do we show if a patient doesn’t have any lab data?_
 
-**My engineers flagged several scenarios that should be handled thoughtfully:**
+My engineers flagged several scenarios that should be handled thoughtfully:
 * A patient is new to the practice and hasn’t had labs done yet
 * Their labs exist, but only as PDFs
 * A test has data points, but they’re measured in different units, so we can’t graph them
