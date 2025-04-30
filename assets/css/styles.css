@@ -490,14 +490,14 @@ section.resume-section {
     top: calc(-1 * var(--size-xs));
 }
 
-.content ol li:before {
+.content ol > li:before {
     content: counter(custom-counter, decimal);
     left: calc(-1 * var(--size-m));
     font-weight: var(--font-bold);
     font-style: italic;
 }
 
-.content ol ol li:before {
+.content ol ol > li:before {
   content: counter(custom-counter, lower-alpha);
 }
 

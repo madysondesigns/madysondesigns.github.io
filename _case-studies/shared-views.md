@@ -2,7 +2,7 @@
 layout: case-studies/page
 noindex: true
 title: Shared Views for Task Collaboration
-date: 2019-04-19
+date: 2018-11-19
 featured: true
 thumbnail: "thumbnail.png"
 image-folder: "shared-views"
