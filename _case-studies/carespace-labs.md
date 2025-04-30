@@ -14,7 +14,7 @@ tags: ["Product Strategy", "Research", "Interaction Design", "Prototyping", "Des
 
 CareSpace is a patient portal that gives patients secure, online access to their health information that is managed through Flatiron Health's electronic health record (EHR) platform. As the lead designer for the Patient Experience team, I worked on a huge project over two years to make improvements to the lab results experience both in the CareSpace portal and in the EHR.
 
-This project started in response to direct feedback in the form of multiple feature requests – oncologists told us they needed a way to withhold lab results from being automatically released to CareSpace. My PM previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
+This project started in response to a feature request from multiple oncologists: they told us they needed a way to withhold lab results from being automatically released to CareSpace. My PM previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
 
 I was especially curious why this was such a frequently mentioned feature, and as we dug in, we uncovered several key problems that went beyond just withholding results – for both oncologists and patients.
 1. CareSpace itself doesn’t do a great job of displaying lab data, making it hard for patients to tell whether their results are within a normal range or if something requires further attention.
@@ -27,15 +27,15 @@ Taken together, these issues made it clear that oncologists weren’t just askin
 
 ### When feature requests and regulatory requirements conflict
 
-Releasing lab results involves balancing legal requirements and ethical considerations. Regulations require results to be shared with patients within four business days unless withholding them serves the patient’s best interest, though the term is vague. We leave this decision (and liability) to the oncologist, trusting their judgment. Our approach is “enable, not enforce” – we provide tools for informed decisions, without imposing biases.
+Releasing lab results involves balancing legal requirements and ethical considerations. Regulations require results to be shared with patients within four business days unless withholding them serves the patient’s best interest, though the term is vague.
 
 Oncologists hesitate to release results directly because they don’t want patients to see distressing news – like cancer progression – without medical support. Seeing alarming results without context can cause unnecessary anxiety. Physicians prefer to discuss results first, offering reassurance and explaining the findings. Many times, results that seem concerning may not be clinically significant, and without a doctor’s context, patients might assume the worst. By withholding “sensitive” results until a conversation can occur, oncologists provide clarity and support.
 
-We also believe patients have a right to their healthcare data. While some oncologists are cautious about overwhelming patients, perspectives are shifting. Research shows informed patients have better outcomes, and more providers are becoming comfortable with transparency.
+We leave this decision (and liability) to the oncologist, trusting their judgment. Our philosophy is “enable, not enforce” – we design tools to make informed decisions, without imposing biases. We also believe patients have a right to their healthcare data as it's available, and this perspective is becoming more accepted among providers over time. Studies have shown that informed and engaged patients have better outcomes, and more providers are becoming comfortable with transparency.
 
 Ultimately, we learned that when oncologists asked for more control over lab result release, they really wanted more opportunity to handle these nuanced conflicts with compassion in a way the existing patient portal couldn't.
 
-##### At this point, we realized that addressing the original feedback was only part of the equation. The problem we needed to solve wasn’t just to control when lab results were available, but to make them meaningful.
+##### At this point, we realized that addressing feedback was only part of the equation. The problem we needed to solve wasn’t just to control when lab results were available, but to make them meaningful to patients.
 
 ### Framing the problem with design principles
 
@@ -57,18 +57,18 @@ I worked closely with a cross-functional team – including a PM, tech lead, eng
 
 ## The User
 
-Cancer patients often navigate fear, anxiety, exhaustion, and confusion – but just as striking was their resilience, optimism, and drive to help others. One of my biggest takeaways: many patients were eager to participate in research, hoping to make someone else’s journey a little easier.
+CareSpace's users are first and foremost patients who have been diagnosed with cancer. Cancer patients are facing some of the most difficult moments of their lives, and while technology can streamline access to information, it can’t provide the human touch that’s often needed. A reassuring voice, a hand to hold, or even just a doctor’s presence can make all the difference when processing difficult news. They often navigate fear, anxiety, exhaustion, and confusion – but just as striking is their resilience, optimism, and drive to help others.
 
 {% include figure.html src="personas.png"
 caption="Since Phase 1 focused on the patient experience, we expanded our personas to capture differences in treatment journeys, demographics, and mindsets."
 alt="An overview of the personas who will interact with this project" %}
 
-Most of our patient users are 65 and older, which brings a distinct set of design considerations.
+In addition, most of our patient users are 65 and older, which brings a distinct set of design considerations.
 
 **Their needs shaped every decision we made:**
-* **Vision impairments:** Many users struggle with small text or low-contrast layouts. We prioritized large, high-contrast fonts and scalable text to make reading effortless.
+* **Vision impairments:** Many users struggle with small text or low-contrast layouts. Large, high-contrast fonts and scalable text are important to make reading effortless.
 * **Cognitive clarity:** Navigation must be straightforward. Complex menus, hidden actions, or unclear labels only create frustration.
-* **Reduced dexterity:** Precise movements can be difficult, so we designed with large, well-spaced buttons and touch-friendly targets throughout.
+* **Reduced dexterity:** Precise movements can be difficult, so we should ensure large, well-spaced buttons and touch-friendly targets throughout.
 * **Digital skepticism:** Older users often approach new systems with caution. Building trust meant clear explanations, step-by-step guidance, and thoughtful confirmation screens at key moments.
 * **Pacing and pressure:** Time-sensitive workflows add unnecessary stress. Our design lets users move at their own speed, confident they won’t be penalized for needing a moment.
 
@@ -78,7 +78,7 @@ On the practice side, even though Phase 1 focused on the patient, we still had t
 * **Clinical staff:** oncologists, nurses, lab techs, MAs
 * **Support staff:** admins, schedulers, front desk, phone teams
 
-No matter the role, the reality was the same: they’re busy. Seeing dozens of patients a day means they don’t have time for cluttered systems or sluggish workflows. Every design decision had to ensure information stayed accessible, processes stayed fast, and the system worked with them – not against them.
+No matter the role, the reality was the same: they’re busy. Seeing dozens of patients a day means they don’t have time for cluttered systems or sluggish workflows. Every design decision had to ensure information stayed accessible and the system didn't slow clinicians down.
 
 ## Research
 
@@ -88,13 +88,11 @@ One unique advantage of our user research process is our direct access to intern
 
 ##### Input from internal experts doesn’t replace direct user feedback, but it accelerates learning and makes the rest of the research process more targeted and effective.
 
-One major constraint we faced was the inability to contact patients directly due to HIPAA regulations. While practices could reach out on our behalf, this added inefficiency and introduced a “game of telephone” that didn’t scale well for our small, scrappy team.
+One major constraint we faced was that HIPAA regulations prevented us from contacting patients directly. While practices could reach out on our behalf, this added inefficiency and introduced a “game of telephone” that didn’t scale well for our small, scrappy team.
 
-We found a workaround: by using screening questions in our user recruiting tool, we could ask participants which practice they belonged to. If they happened to name a practice we served, we were in the clear to talk to them. This loophole allowed us to engage with our patients, though it drastically limited our pool so we decided to reserve this small group of participants for usability testing and validation.
+We found a workaround: we used a participant recruiting platform for user research, and we used a screening question asking which oncology practice they visited. If they named a practice we served, we were in the clear to talk to them because they had volunteered the information. This loophole allowed us to engage with our patients, though it drastically limited our pool so we decided to reserve this small group of participants for usability testing and validation.
 
 ### Insights from internal experts
-
-For our initial research, we leaned heavily on insights from internal experts and a handful of partner practices. Though not a perfect solution, this gave us enough of a signal to confidently create an initial prototype. We knew more validation would be needed later once we could engage real users, but given the constraints, this was the best path forward.
 
 One thing we heard often in our internal research was that sometimes labs were "sensitive" – but what does that mean? What we quickly discovered was that the answer wasn’t straightforward – it really depends. A lab’s sensitivity can be influenced by factors like the type of test, the patient’s specific diagnosis or treatment, how long they’ve been on their journey, and how knowledgeable they are about their condition.
 
@@ -102,7 +100,7 @@ One thing we heard often in our internal research was that sometimes labs were "
 
 For instance, two patients receiving the same result from the same test might have very different reactions. An experienced patient may look at the result and know it’s nothing to worry about, while someone newly diagnosed might immediately feel anxious. This insight gave even more weight to our hypothesis that patients who are more knowledgeable tend to be less sensitive to lab results. It also highlighted a major opportunity for us to improve CareSpace so more patients could feel informed, empowered, and less anxious about their results.
 
-Once we realized that sensitivity is more about the patient than the specific lab data, I expanded our personas with detailed scenarios to capture different levels of sensitivity and experience.
+As we shifted our perspective on sensitivity, I expanded our personas with detailed scenarios to capture different levels of sensitivity and experience.
 
 I outlined key details about the patient – their diagnosis, treatment stage, familiarity with lab results, and the specific lab data they might encounter.
 * **The hyper-anxious patient:** Sensitive to any shifting labs, even if the changes aren’t clinically significant. Any fluctuation causes stress.
@@ -129,7 +127,7 @@ From these audits, I built a comprehensive picture of the pain points and shortc
 
 ### Insights from data analysis
 
-To build a solid foundation, I worked with engineers to analyze actual lab data. This data analysis informed both my workflow design and technical system design. It gave the whole team a shared vocabulary, making discussions more efficient.
+To better understand the breadth of information we had to visualize, I worked with engineers to analyze actual lab data. This data analysis informed both my workflow design and technical system design. It gave the whole team a shared vocabulary, making discussions more efficient.
 
 **We needed to understand two key things:**
 1. **What do labs look like?** Defining the structure of lab data was crucial:
@@ -143,7 +141,7 @@ To build a solid foundation, I worked with engineers to analyze actual lab data.
       * Comments (e.g., lab facility notes)
    1. **Panel:** A group of tests (e.g., CBC)
    1. **Report:** A collection of panels performed together, stored as discrete data or a PDF
-1. **How much lab data is there?** Understanding scale helped us define information hierarchy:
+1. **How much lab data is there?** Understanding the volume of lab data was also essential:
    1. Lab dates per patient over different time frames
    1. Reports per date
    1. Panels per report
@@ -158,9 +156,11 @@ alt="A few diagrams of different ways lab data surfaces for patients or practice
 
 ## Exploration
 
-After all that research, I felt confident in our hypothesis that if CareSpace could present lab data more clearly – making recent results easy to locate and trends easy to understand – it would reduce unnecessary patient calls and, in turn, reduce the need for oncologists to withhold results just to prevent confusion.
+After all that research, I felt confident sharpening our hypothesis:
 
-Once I simplified everything, I realized there was a core user need that the new labs experience needed to provide.
+#### If CareSpace presented lab data more clearly – making recent results easy to locate and trends easy to understand – it would reduce unnecessary patient calls and, in turn, reduce the need for oncologists to withhold results just to prevent confusion.
+
+This new framing gave me a starting point for exploring gaps in the current tooling and designs to improve it. With this refined problem to solve, I realized there was a core user need that the new labs experience needed to provide.
 
 **When patients log into CareSpace to check their lab results, they’re usually trying to answer one of two questions:**
 1. Where are my latest lab results?
@@ -258,7 +258,7 @@ I documented all component states with design mockups and written guidelines so 
 ## Validation
 
 Once I had working prototypes of the new labs experience, we moved on to usability testing.
-Because we were operating scrappy, I added exploratory questions to learn more about patients’ journeys and mindsets – not just validate the design. This helped build rapport and gave me rich insights to strengthen our patient personas.
+Because our process had to be scrappy, I added exploratory questions to learn more about patients’ journeys and mindsets – not just validate the design. This helped build rapport and gave me rich insights to strengthen our patient personas.
 
 I put together a list of goals for research sessions so we as a team could align on what we wanted to learn and validate. I also created a set of screening questions to ensure participants were cancer patients, represented diverse demographics, and – importantly – came from practices we served whenever possible (see research constraints mentioned earlier).
 
@@ -269,8 +269,6 @@ We conducted five total sessions, each lasting an hour. I structured them into t
 At the end of each session, I wrapped up with summary and opinion questions, giving participants space to share any final thoughts. This structure helped me validate key design decisions while also deepening my understanding of what patients truly needed from their lab results experience.
 
 Throughout the process, I pulled in engineers and operations teammates to observe or take notes – building shared empathy and making sure the whole team saw the real-world impact of our design choices.
-
-This approach helped us validate critical UX decisions and deepen our understanding of what patients truly needed from their lab results experience.
 
 {% include figure.html src="research-goals.png"
 caption="User-oriented goals gave the team a concrete list of questions and tasks to evaluate in each research session."
@@ -306,6 +304,7 @@ Beyond the task analysis, we also gathered some rich qualitative insights that d
   * “People came out of the woodwork to support me”
   * “I had more friends than I realized”
   * “It made me feel like my life has mattered to others”
+* **One of my biggest takeaways – many patients were eager to participate in research, hoping to make someone else’s journey a little easier.**
 
 We did hit a small snag in that the prototype didn’t use realistic or customized lab data, which confused a couple of participants – they were expecting to see *their* numbers. It was a good reminder that even when testing a general design, context still matters.
 
@@ -344,9 +343,9 @@ As we were building, I partnered with my PM to align on how we’d define succes
 
 To track these, we had to piece together data from a few different sources – including support team feedback, analytics, and qualitative patient insights – so the results ended up being more anecdotal than we initially expected.
 
-One of our main feedback channels was direct check-ins with practices. Larger sites with white-glove support gave us regular touchpoints, but I also reached out to smaller clinics, rural locations, and niche specialties to hear from a more representative range. Since practice demographics often mirror their patient populations, this helped us collect more balanced insights.
+One of our main feedback channels was direct check-ins with practices. Larger sites with white-glove support gave us regular touchpoints, but I also reached out to smaller clinics, rural locations, and niche specialties. I wanted to hear from a more representative range of practices to make sure we could collect balanced insights.
 
-As we shipped each slice of work, we asked about our success metrics to make sure we stayed on track – changes in call volume related to lab results, and any patient feedback on the new experience.
+As we shipped each slice of work, we asked these practices about our success metrics to make sure we stayed on track – changes in call volume related to lab results, and any patient feedback on the new experience.
 
 We paired this with data from our internal engagement tool, which tracked how users moved through CareSpace to measure more concrete data points.
 * How many patients log in to CareSpace within 4 business days of lab work
@@ -362,7 +361,7 @@ In addition to the planned slices of work, we made several iterative improvement
 
 ### Iteration 1: Language that resonates
 
-After usability testing, something felt off. Patients could navigate the trend view just fine, but the word “trend” didn’t quite reflect how they talked about their results. It felt clinical – not personal. In a quick wordsmithing session with my PM and our clinical expert, we explored alternatives. When “lab history” came up, it clicked. It still described the functionality, but with a tone that felt more aligned with patients’ mental models and lived experience.
+After usability testing, something felt off. Patients could navigate the trend view just fine, but the word “trend” didn’t quite reflect how they talked about their results. It felt clinical – not personal. In a quick wordsmithing session with my PM and our clinical expert, we explored alternatives. When “lab history” came up, it clicked with us and with clinical experts. It still described the functionality, but with a tone that felt more aligned with patients’ mental models and lived experience.
 
 We made the call to update the label across the product. The engineering change was a simple search-and-replace, but the impact wasn’t just technical – **it was a reminder that in healthcare, the words we choose really matter.**
 
@@ -378,8 +377,8 @@ My engineers flagged several scenarios that should be handled thoughtfully:
 
 The goal wasn’t just to avoid a blank screen – it was to make sure patients understood that the portal was working, and what to expect next.
 
-* If no labs were available, I included friendly context-setting and an indication of what they’d see in the future
-* If something went wrong, I explained the error in plain language and clarified whether the patient needed to take action
+* If no labs were available, I included friendly context-setting and an indication of what they’d see in the future.
+* If something went wrong, I explained the error in plain language and clarified whether the patient needed to take action.
 
 {% include figure.html src="empty-states.png"
 caption="I designed tailored empty states for the dashboard, report view, and history view."
