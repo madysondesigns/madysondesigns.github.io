@@ -59,10 +59,6 @@ I worked closely with a cross-functional team – including a PM, tech lead, eng
 
 CareSpace's users are first and foremost patients who have been diagnosed with cancer. Cancer patients are facing some of the most difficult moments of their lives, and while technology can streamline access to information, it can’t provide the human touch that’s often needed. A reassuring voice, a hand to hold, or even just a doctor’s presence can make all the difference when processing difficult news. They often navigate fear, anxiety, exhaustion, and confusion – but just as striking is their resilience, optimism, and drive to help others.
 
-{% include figure.html src="personas.png"
-caption="Since Phase 1 focused on the patient experience, we expanded our personas to capture differences in treatment journeys, demographics, and mindsets."
-alt="An overview of the personas who will interact with this project" %}
-
 In addition, most of our patient users are 65 and older, which brings a distinct set of design considerations.
 
 **Their needs shaped every decision we made:**
@@ -72,13 +68,17 @@ In addition, most of our patient users are 65 and older, which brings a distinct
 * **Digital skepticism:** Older users often approach new systems with caution. Building trust meant clear explanations, step-by-step guidance, and thoughtful confirmation screens at key moments.
 * **Pacing and pressure:** Time-sensitive workflows add unnecessary stress. Our design lets users move at their own speed, confident they won’t be penalized for needing a moment.
 
-##### When you’re designing for older adults, clarity, accessibility, and trust aren’t _nice-to-haves_ – they’re non-negotiable.
+##### When you’re designing for older adults, clarity, accessibility, and trust aren’t nice-to-haves – they’re non-negotiable.
 
 On the practice side, even though Phase 1 focused on the patient, we still had to protect their workflows. We focused on two key groups:
 * **Clinical staff:** oncologists, nurses, lab techs, MAs
 * **Support staff:** admins, schedulers, front desk, phone teams
 
 No matter the role, the reality was the same: they’re busy. Seeing dozens of patients a day means they don’t have time for cluttered systems or sluggish workflows. Every design decision had to ensure information stayed accessible and the system didn't slow clinicians down.
+
+{% include figure.html src="personas.png"
+caption="An overview of the personas involved in this project and their needs. Patients are our primary focus, but we also need to keep clinical users in mind."
+alt="An overview of the personas who will interact with this project" %}
 
 ## Research
 
