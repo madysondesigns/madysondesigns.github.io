@@ -23,15 +23,17 @@ I was especially curious why this was such a frequently mentioned feature, and a
 4. Clinicians often have no visibility into what a patient can or can’t see in CareSpace, making it difficult to anticipate patient concerns.
 5. Beyond all these system shortcomings, there are still legitimate clinical reasons why a provider might want to hold back results until they can walk a patient through them – sometimes, difficult news is best delivered in person.
 
-Taken together, these issues made it clear that oncologists weren’t just asking for a simple feature and this project wasn’t just about restricting lab release. It was really about giving patients the tools and information to understand their health data, giving providers better control over patient communication, and improving the overall experience for both doctors and patients.
+Taken together, these issues made it clear that the problem went much deeper than controlling how lab results are released. The real issue is that CareSpace falls short in giving patients the tools and information to understand their health data, as well as giving providers control over patient communication.
 
 ### When feature requests and regulatory requirements conflict
 
-Releasing lab results involves balancing legal requirements and ethical considerations. Regulations require results to be shared with patients within four business days unless withholding them serves the patient’s best interest, though the term is vague.
+Building a workflow with an option to withhold lab results wouldn't have been so difficult. So why not just give oncologists the choice? We also have to respect legal and ethical considerations.
 
-Oncologists hesitate to release results directly because they don’t want patients to see distressing news – like cancer progression – without medical support. Seeing alarming results without context can cause unnecessary anxiety. Physicians prefer to discuss results first, offering reassurance and explaining the findings. Many times, results that seem concerning may not be clinically significant, and without a doctor’s context, patients might assume the worst. By withholding “sensitive” results until a conversation can occur, oncologists provide clarity and support.
+Federal Healthcare IT regulations (The 21st Century Cures Act) mandate that patients have timely access to their electronic health information through patient portals – **meaning withholding lab results violates those regulations**. Results must be shared within four business days unless withholding them serves the patient’s best interest, though the term is vague.
 
-We leave this decision (and liability) to the oncologist, trusting their judgment. Our philosophy is “enable, not enforce” – we design tools to make informed decisions, without imposing biases. We also believe patients have a right to their healthcare data as it's available, and this perspective is becoming more accepted among providers over time. Studies have shown that informed and engaged patients have better outcomes, and more providers are becoming comfortable with transparency.
+Oncologists hesitate to release some results because they don’t want patients to see distressing news – like cancer progression – without support. Physicians prefer to discuss results first, offering reassurance and explaining the findings. Many times, results that seem concerning may not be clinically significant, and without a doctor’s context, patients might assume the worst. By withholding “sensitive” results until a conversation can occur, oncologists are often acting in the patient's best interest.
+
+We leave decisions like this to the oncologist, trusting their judgment. Our philosophy is “enable, not enforce” – we design tools to make informed decisions, without imposing biases. We also believe patients have a right to their healthcare data as it's available, and this perspective is becoming more accepted among providers over time. Studies have shown that informed and engaged patients have better outcomes, and more providers are becoming comfortable with transparency.
 
 Ultimately, we learned that when oncologists asked for more control over lab result release, they really wanted more opportunity to handle these nuanced conflicts with compassion in a way the existing patient portal couldn't.
 
