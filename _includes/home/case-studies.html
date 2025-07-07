@@ -1,5 +1,4 @@
 <p>Here some recent examples of how I approach design and product challenges.</p>
-<p><a class="more-link" href="/case-studies/">See all Case Studies</a></p>
 {%- assign pages = site.case-studies | where: "featured", "true" -%}
 {%- for page in pages reversed -%}
   <h3 class="mt-5"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
@@ -15,3 +14,4 @@
   </div>
   {%- include tags.html -%}
 {%- endfor -%}
+<p><a class="more-link" href="/case-studies/">See all Case Studies</a></p>
