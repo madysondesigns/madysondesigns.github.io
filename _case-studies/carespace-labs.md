@@ -12,7 +12,7 @@ tags: ["Product Strategy", "Research", "Interaction Design", "Prototyping", "Des
 
 ## The Problem
 
-CareSpace is a patient portal that gives patients secure, online access to their health information that is managed through Flatiron Health's electronic health record (EHR) platform. As the lead designer for the Patient Experience team, I worked on a huge project over two years to make improvements to the lab results experience both in the CareSpace portal and in the EHR.
+CareSpace is a patient portal that gives patients secure, online access to their health information that is managed through Flatiron Health's electronic health record (EHR) platform. As the lead designer for the Patient Experience team, I led a large, multi-phase project spanning more than a year to improve the lab results experience across both the CareSpace portal and the EHR.
 
 This project started in response to a feature request from multiple oncologists: they told us they needed a way to withhold lab results from being automatically released to CareSpace. My PM previously conducted some initial research to validate this ask, and once I joined the team, the two of us sat down to brainstorm how we might address this request.
 
@@ -47,7 +47,7 @@ First, **clarity**: Lab results should be easy to understand without causing unn
 
 These first two principles became **Phase 1**: focused entirely on the patient experience, improving the CareSpace UX so that lab results were easier to understand and access.
 
-For practices, **transparency** was critical. Providers and staff needed visibility into what patients could see in CareSpace, ensuring the EHR and patient portal remained aligned. If a result was withheld, the system should make it clear why. Finally, **control**: Oncologists needed the ability to withhold sensitive results on a case-by-case basis, ensuring that regulatory requirements didn’t override their clinical judgment when it wasn’t in the patient’s best interest. These principles kept us focused on building a system that was not only functional but also intuitive, trustworthy, and aligned with real-world clinical workflows.
+For practices, **transparency** was critical. Providers and staff needed visibility into what patients could see in CareSpace, ensuring the EHR and patient portal remained aligned. If a result was withheld, the system should make it clear why. Finally, **flexibility**: Oncologists needed the ability to withhold sensitive results on a case-by-case basis, ensuring that regulatory requirements didn’t override their clinical judgment when it wasn’t in the patient’s best interest. These principles kept us focused on building a system that was not only functional but also intuitive, trustworthy, and aligned with real-world clinical workflows.
 
 The second two principles became **Phase 2**: iterating on existing oncologist workflows to give providers better visibility and decision-making power.
 
@@ -398,14 +398,14 @@ That turned this into a much heavier lift, so we spun it out into a separate pro
 
 ### Future iterations: Phase 2
 
-As my work on the patient-facing side of the labs experience began to taper down, I shifted focus to the next phase of the project: giving practices more transparency and control. We’d learned so much about how patients interact with their lab data and broader care journey, and I wanted to carry those insights forward into Phase 2.
+As my work on the patient-facing side of the labs experience began to taper down, I shifted focus to the next phase of the project: giving practices more transparency and flexibility in how labs are shared with patients. We’d learned so much about how patients interact with their lab data and broader care journey, and I wanted to carry those insights forward into Phase 2.
 
 **In particular, I focused on three key opportunities:**
 * **Display consistency:** Showing lab data in a similar way across the patient and provider experiences so they could more easily speak the same language
 * **Clarity and actionability:** Making it quick and easy for oncologists to understand what their options were when a patient's labs came back
 * **Patient empowerment:** Encouraging providers to be more open in sharing results, helping patients take a more active role in their own care
 
-This second phase of work became another year-long effort, with its own set of complexities and opportunities.
+This second phase of work became another long-running effort, with its own set of complexities and opportunities.
 
 ## Takeaways
 
