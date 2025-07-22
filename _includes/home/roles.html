@@ -1,15 +1,21 @@
-{%- for role in site.data.roles -%}
-<div class="resume-item">
-  <div class="resume-content mr-auto">
-    <h4 class="my-0">{{ role.company }}</h4>
-    <h3 class="my-0">{{ role.title }}</h3>
-    <p>{{ role.summary }}</p>
-    {%- if role.previous -%}
-      <p><em>(previously) {{ role.previous }}</em></p>
-    {%- endif -%}
+{%- for company in site.data.roles -%}
+  <h3 class="">{{ company.company }}</h3>
+  {%- for role in company.roles -%}
+  <div class="resume-item">
+    <div class="resume-content mr-auto">
+      <h4 class="my-0">{{ role.title }}</h4>
+      <ul class="role-summary my-0">
+        {%- for bullet in role.summary -%}
+        <li>{{ bullet }}</li>
+        {%- endfor -%}
+      </ul>
+      {%- if role.previous -%}
+        <p><em>(previously) {{ role.previous }}</em></p>
+      {%- endif -%}
+    </div>
+    <div class="role-date ml-s">
+      <span class="text-primary">{{ role.range }}</span>
+    </div>
   </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">{{ role.range }}</span>
-  </div>
-</div>
+  {%- endfor -%}
 {%- endfor -%}

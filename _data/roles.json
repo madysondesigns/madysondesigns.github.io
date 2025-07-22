@@ -1,34 +1,66 @@
 [
   {
-    "title": "Lead Design Systems Manager",
-    "previous": "Lead Product Design Manager, Senior Product Designer",
+    "company": "Freelance",
+    "roles": [
+      {
+        "title": "Product Design Consultant/Sabbatical",
+        "range": "2023–Present",
+        "summary": [
+          "Took a purposeful sabbatical to recharge, reflect on long-term goals, and provide design mentorship and strategic support to early-stage teams – now focused on rejoining a mission-driven team with fresh clarity and intent."
+        ]
+      }
+    ]
+  },
+  {
     "company": "Flatiron Health",
-    "summary": "Flatiron Health provides a specialized Electronic Health Record platform for oncology practices. I led cross-functional teams across the patient and healthcare provider experiences focusing on efficiency, accessibility, and patient safety.",
-    "range": "2018–2023"
+    "roles": [
+      {
+        "title": "Lead Design Systems Manager",
+        "range": "2022–2023",
+        "summary": [
+          "Shaped Flatiron’s design systems strategy by creating, hiring, and leading the dedicated 3-person team supporting 40+ contributors and 20+ products.",
+          "Led the shift from a grassroots effort to a funded team supporting internal tools, scaling consistency, efficiency, and design quality across the org.",
+          "Collaborated closely with engineering and product stakeholders to define contribution models, governance, and long-term system evolution."
+        ]
+      },
+      {
+        "title": "Lead Product Design Manager",
+        "range": "2018–2022",
+        "summary": [
+          "Owned the product design function as an IC across multiple customer-facing teams, supporting products used by 4,200+ clinicians and 5M+ patients.",
+          "Drove product direction and improved patient and provider experiences while managing 2–3 designers and mentoring across a 25+ person team.",
+          "Shaped team vision, hiring strategy, and collaborative processes as the team scaled from 5 to 25+ designers.",
+          "Led early design efforts as <em>Senior Product Designer</em>, driving strategic product improvements across core product areas."
+        ]
+      }
+    ]
   },
   {
-    "title": "Principal Product Designer",
     "company": "Fundera",
-    "summary": "Fundera is a small business marketplace for financial products and tools. I am working on the first digital finance platform for 20k new business owners, focusing on increasing both engagement and revenue conversion.",
-    "range": "2017–Present"
+    "roles": [
+      {
+        "title": "Principal Product Designer",
+        "range": "2017–2018",
+        "summary": [
+          "Designed and launched Fundera’s first dashboard experience for 20k small business owners, providing a central hub for managing financial tools and data.",
+          "Created a scalable framework that enabled ongoing feature development and improved the long-term customer experience."
+        ]
+      }
+    ]
   },
   {
-    "title": "Senior Product Designer",
-    "previous": "Lead Designer, Software Engineer, Graphic Designer",
     "company": "Betterment",
-    "summary": "Betterment is a digital investment platform that improves customers’ financial lives. I built and led the first design team, helped grow the team from 12–200+, and the customer base from 10,000 to over 250,000.",
-    "range": "2011–2017"
-  },
-  {
-    "title": "Graphic & Digital Designer",
-    "company": "ING Group, Inc.",
-    "summary": "Design print materials, digital and interactive tools, and branding packages.",
-    "range": "2009–2011"
-  },
-  {
-    "title": "Graphic Designer",
-    "company": "ThermoSpas, Inc.",
-    "summary": "Design print materials, e-commerce websites, advertisements and direct mail.",
-    "range": "2007–2009"
+    "roles": [
+      {
+        "title": "Senior Product Designer",
+        "range": "2011–2017",
+        "summary": [
+          "Founding designer at Betterment, growing design from early marketing work to full-stack product leadership across teams and platforms.",
+          "Led key product expansions – including the advisor platform and 401k – while building the first design system to support rapid scale.",
+          "Contributed to company growth from 12 to 200+ employees and scaled the customer base from ~10K to 250K+.",
+          "Supported early-stage product, brand, and frontend growth through roles as <em>Senior Product Designer</em>, <em>Software Engineer</em>, and <em>Graphic Designer</em>."
+        ]
+      }
+    ]
   }
 ]

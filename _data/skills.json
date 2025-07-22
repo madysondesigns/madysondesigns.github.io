@@ -1,43 +1,54 @@
 [
   {
+    "grouping": "Strategy & Research",
+    "keywords": [
+      "UX Research",
+      "Product Strategy",
+      "Service Design",
+      "Information Architecture"
+    ]
+  },
+  {
     "grouping": "Product Design",
     "keywords": [
-      "UX/UI Design",
-      "Service Design",
+      "Interaction Design",
+      "User Experience Design",
+      "Accessibility"
+    ]
+  },
+  {
+    "grouping": "Visual & Systems",
+    "keywords": [
+      "UI Design",
       "Design Systems",
-      "Wireframing & Prototyping",
-      "UX Research",
-      "User Journey Mapping",
-      "Workflow Mapping",
-      "Usability Testing",
-      "Information Architecture",
-      "Accessibility Standards",
-      "Mobile/Responsive Design",
-      "Data Analysis & Metrics",
+      "Prototyping (Figma & Code)  ",
       "Brand & Print Design"
     ]
   },
   {
-    "grouping": "Leadership",
+    "grouping": "Technical Collaboration",
     "keywords": [
-      "Design Thinking",
-      "Product Strategy",
-      "Design Operations",
-      "Stakeholder Management",
-      "Workshop Facilitation",
-      "Hiring & Team Development"
+      "Agile Practices & Tooling",
+      "HTML/CSS/React Fluency",
+      "Responsive Design",
+      "Developer Handoff"
     ]
   },
   {
-    "grouping": "Technical",
+    "grouping": "Leadership & Management",
     "keywords": [
-      "Figma/Sketch",
-      "InVision/Framer/UXPin",
-      "Adobe Creative Suite",
-      "Trello/Jira/Asana",
-      "HTML/CSS",
-      "JavaScript/React",
-      "Ruby/Rails"
+      "DesignOps",
+      "Workshop Facilitation",
+      "Mentorship",
+      "Team Building"
+    ]
+  },
+  {
+    "grouping": "Outcomes & Impact",
+    "keywords": [
+      "Data-Informed Design",
+      "Cross-Functional Partnership",
+      "Storytelling"
     ]
   }
 ]

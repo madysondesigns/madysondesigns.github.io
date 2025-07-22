@@ -290,8 +290,9 @@ section.resume-section {
   margin-bottom: var(--size-m);
 }
 
-.resume-date {
-  min-width: none;
+.role-date {
+  min-width: initial;
+  text-wrap: nowrap;
   font-weight: var(--font-bold);
   font-style: italic;
 }
@@ -456,19 +457,19 @@ section.resume-section {
   margin-bottom: var(--size-m);
 }
 
-.content ul, .content ol {
+.content ul, .content ol, .role-summary {
     list-style-type: none;
     padding-left: 0;
     counter-reset: custom-counter;
     margin-bottom: 2em;
 }
 
-.content ul li, .content ol li {
+.content ul li, .content ol li, .role-summary li {
     position: relative;
     margin: 1em 0;
 }
 
-.content ul li:before, .content ol li:before {
+.content ul li:before, .content ol li:before, .role-summary li:before {
     position: absolute;
     left: calc(-1 * var(--size-s));
     counter-increment: custom-counter;
@@ -484,7 +485,7 @@ section.resume-section {
     margin: 0;
 }
 
-.content ul > li:before {
+.content ul > li:before, .role-summary li:before {
     content: counter(custom-counter, disc);
     font-size: 1.5em;
     top: calc(-1 * var(--size-xs));
