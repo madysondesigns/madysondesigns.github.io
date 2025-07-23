@@ -1,12 +1,10 @@
 {%- for education in site.data.education -%}
-<div class="resume-item">
   <div class="resume-content mr-auto">
-    <h4 class="my-0">{{ education.school }}</h4>
-    <h3 class="my-0">{{ education.degree }}</h3>
-    <p>{{ education.major }}</p>
+    <h3>{{ education.degree }}</h3>
+    <h4 class="my-0">
+      {{ education.school }}
+      <span class="text-primary role-date">{{ education.range }}</span>
+    </h4>
+    <p class="mt-0">{{ education.major }}</p>
   </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">{{ education.range }}</span>
-  </div>
-</div>
 {%- endfor -%}
