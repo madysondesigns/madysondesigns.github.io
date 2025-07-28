@@ -149,6 +149,7 @@ blockquote p {
 }
 
 .content, .resume-content {
+  width: 100%;
   max-width: 65rem;
   margin: 0 auto;
 }
@@ -290,8 +291,9 @@ section.resume-section {
   margin-bottom: var(--size-m);
 }
 
-.resume-date {
-  min-width: none;
+.role-date {
+  display: block;
+  text-wrap: nowrap;
   font-weight: var(--font-bold);
   font-style: italic;
 }
@@ -355,11 +357,6 @@ section.resume-section {
   .list-social-icons a .fa-lg {
     font-size: var(--size-m);
   }
-
-  #skills li {
-    display: inline-block;
-    margin-right: var(--size-s);
-  }
 }
 
 @media (min-width: 768px) {
@@ -371,12 +368,16 @@ section.resume-section {
     flex-direction: row;
   }
 
-  section.resume-section .resume-item .resume-date {
-    min-width: 12rem;
+  section.resume-section .role-date {
     text-align: right;
+    float: right;
+  }
+
+  #skills li {
+    display: inline-block;
+    margin-right: var(--size-s);
   }
 }
-
 
 .bg-primary {
   background-color: var(--color-accent) !important;
@@ -456,23 +457,40 @@ section.resume-section {
   margin-bottom: var(--size-m);
 }
 
-.content ul, .content ol {
-    list-style-type: none;
-    padding-left: 0;
-    counter-reset: custom-counter;
-    margin-bottom: 2em;
+.content ul > li:before, .role-summary li:before {
+  content: counter(custom-counter, disc);
+  font-size: 1.5em;
+  top: calc(-1 * var(--size-xs));
 }
 
-.content ul li, .content ol li {
-    position: relative;
-    margin: 1em 0;
+.content ol > li:before {
+  content: counter(custom-counter, decimal);
+  left: calc(-1 * var(--size-m));
+  font-weight: var(--font-bold);
+  font-style: italic;
 }
 
-.content ul li:before, .content ol li:before {
-    position: absolute;
-    left: calc(-1 * var(--size-s));
-    counter-increment: custom-counter;
-    color: var(--color-accent);
+.content ol ol > li:before {
+  content: counter(custom-counter, lower-alpha);
+}
+
+.content ul, .content ol, .role-summary {
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: custom-counter;
+  margin-bottom: 2em;
+}
+
+.content ul li:before, .content ol li:before, .role-summary li:before {
+  position: absolute;
+  left: calc(-1 * var(--size-s));
+  counter-increment: custom-counter;
+  color: var(--color-accent);
+}
+
+.content ul li, .content ol li, .role-summary li {
+  position: relative;
+  margin: 1em 0;
 }
 
 .content li ul, .content li ol {
@@ -480,25 +498,8 @@ section.resume-section {
 }
 
 .content ul p, .content ol p {
-    display: inline;
-    margin: 0;
-}
-
-.content ul > li:before {
-    content: counter(custom-counter, disc);
-    font-size: 1.5em;
-    top: calc(-1 * var(--size-xs));
-}
-
-.content ol > li:before {
-    content: counter(custom-counter, decimal);
-    left: calc(-1 * var(--size-m));
-    font-weight: var(--font-bold);
-    font-style: italic;
-}
-
-.content ol ol > li:before {
-  content: counter(custom-counter, lower-alpha);
+  display: inline;
+  margin: 0;
 }
 
 .portfolio-figure {
